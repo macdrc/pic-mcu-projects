@@ -1,0 +1,2439 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\Dara\AppData\Local\Temp\sai8.obj
+idloc IDLOC 0 200000 200000 8 1
+end_init CODE 0 0 0 4 1
+config CONFIG 0 300000 300000 E 1
+$dist/default/debug\Lab8p1.X.debug.obj
+cinit CODE 0 C536 C536 62 1
+text0 CODE 0 CAAA CAAA A2 1
+text1 CODE 0 BF70 BF70 14 1
+text2 CODE 0 C66E C66E 70 1
+text3 CODE 0 BEF0 BEF0 C 1
+text4 CODE 0 CB4C CB4C AE 1
+text5 CODE 0 EA0C EA0C 71E 1
+text6 CODE 0 BFCA BFCA 1C 1
+text7 CODE 0 CD80 CD80 DC 1
+text8 CODE 0 C598 C598 66 1
+text9 CODE 0 C86A C86A 88 1
+text10 CODE 0 C0A4 C0A4 2A 1
+text11 CODE 0 D1EA D1EA F2 1
+text12 CODE 0 C208 C208 3E 1
+text13 CODE 0 D5EE D5EE 110 1
+text14 CODE 0 BF4A BF4A 12 1
+text15 CODE 0 C484 C484 52 1
+text16 CODE 0 BF9A BF9A 16 1
+text17 CODE 0 BF0A BF0A E 1
+text18 CODE 0 CBFA CBFA C0 1
+text19 CODE 0 C0CE C0CE 2E 1
+text20 CODE 0 D98C D98C 1AA 1
+text21 CODE 0 C760 C760 82 1
+text22 CODE 0 DEA8 DEA8 1DE 1
+text23 CODE 0 F12A F12A 938 1
+text24 CODE 0 E62C E62C 3E0 1
+text25 CODE 0 BEFC BEFC E 1
+text26 CODE 0 BFE6 BFE6 22 1
+text27 CODE 0 E086 E086 244 1
+text28 CODE 0 D2DC D2DC F8 1
+text29 CODE 0 D4DE D4DE 110 1
+text30 CODE 0 D3D4 D3D4 10A 1
+text31 CODE 0 C4D6 C4D6 60 1
+text32 CODE 0 C5FE C5FE 70 1
+text33 CODE 0 C8F2 C8F2 8C 1
+text34 CODE 0 D01C D01C E6 1
+text35 CODE 0 C356 C356 44 1
+text36 CODE 0 DCE4 DCE4 1C4 1
+text37 CODE 0 C008 C008 24 1
+text38 CODE 0 CA14 CA14 96 1
+text39 CODE 0 C02C C02C 26 1
+text40 CODE 0 CF3A CF3A E2 1
+text41 CODE 0 C18E C18E 3C 1
+text42 CODE 0 CCBA CCBA C6 1
+text43 CODE 0 C15C C15C 32 1
+text44 CODE 0 C312 C312 44 1
+text45 CODE 0 C2CE C2CE 44 1
+text46 CODE 0 C28A C28A 44 1
+text47 CODE 0 C246 C246 44 1
+text48 CODE 0 E2CA E2CA 362 1
+text49 CODE 0 C432 C432 52 1
+text50 CODE 0 D6FE D6FE 138 1
+text51 CODE 0 DB36 DB36 1AE 1
+text52 CODE 0 C12C C12C 30 1
+text53 CODE 0 D102 D102 E8 1
+text54 CODE 0 CE5C CE5C DE 1
+text55 CODE 0 C1CA C1CA 3E 1
+text56 CODE 0 D836 D836 156 1
+text57 CODE 0 C39A C39A 4A 1
+text58 CODE 0 C7E2 C7E2 88 1
+text59 CODE 0 C0FC C0FC 30 1
+text60 CODE 0 C3E4 C3E4 4E 1
+text61 CODE 0 BF28 BF28 10 1
+text62 CODE 0 BF18 BF18 10 1
+text63 CODE 0 BF5C BF5C 14 1
+text64 CODE 0 C052 C052 28 1
+text65 CODE 0 C6DE C6DE 82 1
+text66 CODE 0 C97E C97E 96 1
+text67 CODE 0 BF84 BF84 16 1
+text68 CODE 0 BFB0 BFB0 1A 1
+text69 CODE 0 BEE8 BEE8 8 1
+text70 CODE 0 BF38 BF38 12 1
+idataCOMRAM CODE 0 BEE3 BEE3 5 1
+cstackCOMRAM COMRAM 1 1 1 6C 1
+bssBANK0 BANK0 1 A9 A9 26 1
+idataBANK0 CODE 0 C07B C07B 29 1
+dataBANK0 BANK0 1 80 80 29 1
+dataCOMRAM COMRAM 1 7B 7B 5 1
+bssCOMRAM COMRAM 1 6D 6D E 1
+mediumconst MEDIUMCONST 0 FA62 FA62 2CE 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM CF-EEE 1
+RAM F00-F7F 1
+SFR F80-F9B 1
+SFR F9D-FD3 1
+SFR FD5-FDA 1
+SFR FE0-FE2 1
+SFR FE8-FEA 1
+SFR FF0-FFB 1
+BANK0 CF-FF 1
+BANK1 100-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 4-BEE2 1
+CONST C07A-C07A 1
+STACK CF-EEE 1
+SMALLCONST 1000-BEE2 1
+SMALLCONST C07A-C07A 1
+CODE 4-BEE2 1
+CODE C07A-C07A 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-EEE 1
+BANK15 F00-F7F 1
+BIGRAM CF-EEE 1
+BIGRAM F00-F7F 1
+EEDATA F00000-F003FF 1
+MEDIUMCONST 1000-BEE2 1
+MEDIUMCONST C07A-C07A 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\Lab8p1.X.debug.obj
+BEE8 text69 CODE >519:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BEE8 text69 CODE >521:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BEEC text69 CODE >522:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BEEE text69 CODE >523:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BEF0 text3 CODE >446:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BEF2 text3 CODE >448:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BEFA text3 CODE >449:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BEFC text25 CODE >285:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BEFE text25 CODE >287:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF04 text25 CODE >288:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF08 text25 CODE >289:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF0A text17 CODE >430:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF0A text17 CODE >432:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF0E text17 CODE >433:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF12 text17 CODE >434:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF16 text17 CODE >435:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF18 text62 CODE >231:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF1A text62 CODE >233:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF1C text62 CODE >235:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF1E text62 CODE >236:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF24 text62 CODE >238:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF26 text62 CODE >240:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF28 text61 CODE >242:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF2A text61 CODE >244:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF2C text61 CODE >245:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF2E text61 CODE >246:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF34 text61 CODE >247:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF36 text61 CODE >248:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF38 text70 CODE >511:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF38 text70 CODE >513:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF3C text70 CODE >514:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF40 text70 CODE >515:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF44 text70 CODE >516:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF48 text70 CODE >517:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF4A text14 CODE >250:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF4A text14 CODE >252:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF4C text14 CODE >253:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF58 text14 CODE >254:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF5A text14 CODE >255:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF5C text63 CODE >222:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF5E text63 CODE >225:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF60 text63 CODE >226:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF64 text63 CODE >227:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF68 text63 CODE >228:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF6E text63 CODE >229:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BF70 text1 CODE >278:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF70 text1 CODE >281:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF7E text1 CODE >282:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF82 text1 CODE >283:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF84 text67 CODE >501:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF84 text67 CODE >503:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF86 text67 CODE >504:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF8A text67 CODE >505:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF8E text67 CODE >506:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF90 text67 CODE >507:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF94 text67 CODE >508:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF98 text67 CODE >509:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF9A text16 CODE >437:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF9A text16 CODE >439:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BF9E text16 CODE >440:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFA2 text16 CODE >441:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFA6 text16 CODE >442:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFAA text16 CODE >443:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFAE text16 CODE >444:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFB0 text68 CODE >478:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFB0 text68 CODE >480:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFB4 text68 CODE >481:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFB8 text68 CODE >482:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFBC text68 CODE >483:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFBE text68 CODE >484:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFC0 text68 CODE >485:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFC6 text68 CODE >486:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFC8 text68 CODE >487:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+BFCA text6 CODE >652:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BFCA text6 CODE >654:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BFE4 text6 CODE >655:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+BFE6 text26 CODE >8:C:\My Programs\Microchip\xc8\v1.34\sources\common\isdigit.c
+BFE8 text26 CODE >14:C:\My Programs\Microchip\xc8\v1.34\sources\common\isdigit.c
+C006 text26 CODE >15:C:\My Programs\Microchip\xc8\v1.34\sources\common\isdigit.c
+C008 text37 CODE >15:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftneg.c
+C008 text37 CODE >17:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftneg.c
+C012 text37 CODE >18:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftneg.c
+C01E text37 CODE >19:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftneg.c
+C02A text37 CODE >20:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftneg.c
+C02C text39 CODE >451:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C02C text39 CODE >454:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C02E text39 CODE >455:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C034 text39 CODE >456:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C046 text39 CODE >458:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C050 text39 CODE >459:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C052 text64 CODE >15:C:\My Programs\Microchip\xc8\v1.34\sources\common\Umul16.c
+C052 text64 CODE >37:C:\My Programs\Microchip\xc8\v1.34\sources\common\Umul16.c
+C05E text64 CODE >38:C:\My Programs\Microchip\xc8\v1.34\sources\common\Umul16.c
+C066 text64 CODE >39:C:\My Programs\Microchip\xc8\v1.34\sources\common\Umul16.c
+C06E text64 CODE >52:C:\My Programs\Microchip\xc8\v1.34\sources\common\Umul16.c
+C078 text64 CODE >53:C:\My Programs\Microchip\xc8\v1.34\sources\common\Umul16.c
+C0A4 text10 CODE >677:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C0A4 text10 CODE >679:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C0A6 text10 CODE >680:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C0A8 text10 CODE >682:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C0AC text10 CODE >683:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C0B0 text10 CODE >686:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C0B4 text10 CODE >687:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C0B8 text10 CODE >688:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C0BC text10 CODE >689:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C0C2 text10 CODE >690:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C0C8 text10 CODE >691:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C0CC text10 CODE >692:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C0CE text19 CODE >489:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C0D0 text19 CODE >492:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C0DE text19 CODE >494:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C0E8 text19 CODE >495:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C0EC text19 CODE >492:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C0F0 text19 CODE >497:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C0FA text19 CODE >499:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C0FC text59 CODE >440:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C0FE text59 CODE >442:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C10A text59 CODE >443:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C10C text59 CODE >444:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C11E text59 CODE >445:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C124 text59 CODE >446:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C12A text59 CODE >447:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C12C text52 CODE >526:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C12C text52 CODE >528:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C13A text52 CODE >530:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C144 text52 CODE >531:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C148 text52 CODE >528:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C14C text52 CODE >533:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C156 text52 CODE >534:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C15A text52 CODE >536:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C15C text43 CODE >8:C:\My Programs\Microchip\xc8\v1.34\sources\common\strcpy.c
+C15C text43 CODE >18:C:\My Programs\Microchip\xc8\v1.34\sources\common\strcpy.c
+C164 text43 CODE >19:C:\My Programs\Microchip\xc8\v1.34\sources\common\strcpy.c
+C166 text43 CODE >20:C:\My Programs\Microchip\xc8\v1.34\sources\common\strcpy.c
+C16A text43 CODE >21:C:\My Programs\Microchip\xc8\v1.34\sources\common\strcpy.c
+C170 text43 CODE >19:C:\My Programs\Microchip\xc8\v1.34\sources\common\strcpy.c
+C18C text43 CODE >24:C:\My Programs\Microchip\xc8\v1.34\sources\common\strcpy.c
+C18E text41 CODE >32:C:\My Programs\Microchip\xc8\v1.34\sources\common\awtoft.c
+C18E text41 CODE >36:C:\My Programs\Microchip\xc8\v1.34\sources\common\awtoft.c
+C192 text41 CODE >37:C:\My Programs\Microchip\xc8\v1.34\sources\common\awtoft.c
+C196 text41 CODE >38:C:\My Programs\Microchip\xc8\v1.34\sources\common\awtoft.c
+C19E text41 CODE >39:C:\My Programs\Microchip\xc8\v1.34\sources\common\awtoft.c
+C1A4 text41 CODE >41:C:\My Programs\Microchip\xc8\v1.34\sources\common\awtoft.c
+C1C8 text41 CODE >42:C:\My Programs\Microchip\xc8\v1.34\sources\common\awtoft.c
+C1CA text55 CODE >4:C:\My Programs\Microchip\xc8\v1.34\sources\common\strlen.c
+C1CA text55 CODE >8:C:\My Programs\Microchip\xc8\v1.34\sources\common\strlen.c
+C1D2 text55 CODE >9:C:\My Programs\Microchip\xc8\v1.34\sources\common\strlen.c
+C1D4 text55 CODE >10:C:\My Programs\Microchip\xc8\v1.34\sources\common\strlen.c
+C1DA text55 CODE >9:C:\My Programs\Microchip\xc8\v1.34\sources\common\strlen.c
+C1E8 text55 CODE >12:C:\My Programs\Microchip\xc8\v1.34\sources\common\strlen.c
+C206 text55 CODE >13:C:\My Programs\Microchip\xc8\v1.34\sources\common\strlen.c
+C208 text12 CODE >361:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C208 text12 CODE >363:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C20E text12 CODE >364:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C21A text12 CODE >365:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C226 text12 CODE >366:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C22C text12 CODE >367:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C238 text12 CODE >368:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C244 text12 CODE >369:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C246 text47 CODE >564:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C248 text47 CODE >566:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C24C text47 CODE >567:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C256 text47 CODE >568:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C258 text47 CODE >570:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C25C text47 CODE >571:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C262 text47 CODE >572:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C266 text47 CODE >573:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C26A text47 CODE >574:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C26C text47 CODE >568:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C288 text47 CODE >575:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C28A text46 CODE >577:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C28C text46 CODE >579:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C290 text46 CODE >580:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C29A text46 CODE >581:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C29C text46 CODE >583:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2A0 text46 CODE >584:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2A6 text46 CODE >585:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2AA text46 CODE >586:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2AE text46 CODE >587:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2B0 text46 CODE >581:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2CC text46 CODE >588:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2CE text45 CODE >538:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2D0 text45 CODE >540:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2D4 text45 CODE >541:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2DE text45 CODE >542:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2E0 text45 CODE >544:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2E4 text45 CODE >545:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2EA text45 CODE >546:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2EE text45 CODE >547:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2F2 text45 CODE >548:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C2F4 text45 CODE >542:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C310 text45 CODE >549:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C312 text44 CODE >551:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C314 text44 CODE >553:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C318 text44 CODE >554:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C322 text44 CODE >555:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C324 text44 CODE >557:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C328 text44 CODE >558:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C32E text44 CODE >559:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C332 text44 CODE >560:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C336 text44 CODE >561:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C338 text44 CODE >555:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C354 text44 CODE >562:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C356 text35 CODE >20:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftsub.c
+C356 text35 CODE >23:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftsub.c
+C360 text35 CODE >24:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftsub.c
+C36E text35 CODE >26:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftsub.c
+C398 text35 CODE >27:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftsub.c
+C39A text57 CODE >470:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C39C text57 CODE >474:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C3A4 text57 CODE >476:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C3BA text57 CODE >474:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C3E2 text57 CODE >478:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C3E4 text60 CODE >425:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C3E6 text60 CODE >427:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C3EC text60 CODE >428:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C3F2 text60 CODE >429:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C3FA text60 CODE >430:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C400 text60 CODE >431:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C408 text60 CODE >432:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C40E text60 CODE >433:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C414 text60 CODE >434:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C41C text60 CODE >435:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C422 text60 CODE >436:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C42A text60 CODE >437:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C430 text60 CODE >438:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C432 text49 CODE >647:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C432 text49 CODE >649:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C44E text49 CODE >650:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C482 text49 CODE >651:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C484 text15 CODE >97:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C484 text15 CODE >104:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C4A0 text15 CODE >105:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C4BC text15 CODE >107:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C4C0 text15 CODE >109:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C4C4 text15 CODE >110:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C4C8 text15 CODE >112:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C4CA text15 CODE >113:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C4CC text15 CODE >115:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C4D2 text15 CODE >116:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C4D4 text15 CODE >117:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C4D6 text31 CODE >35:C:\My Programs\Microchip\xc8\v1.34\sources\common\lltoft.c
+C4D6 text31 CODE >38:C:\My Programs\Microchip\xc8\v1.34\sources\common\lltoft.c
+C4DA text31 CODE >41:C:\My Programs\Microchip\xc8\v1.34\sources\common\lltoft.c
+C4DC text31 CODE >42:C:\My Programs\Microchip\xc8\v1.34\sources\common\lltoft.c
+C4E6 text31 CODE >43:C:\My Programs\Microchip\xc8\v1.34\sources\common\lltoft.c
+C4EA text31 CODE >41:C:\My Programs\Microchip\xc8\v1.34\sources\common\lltoft.c
+C50E text31 CODE >45:C:\My Programs\Microchip\xc8\v1.34\sources\common\lltoft.c
+C534 text31 CODE >46:C:\My Programs\Microchip\xc8\v1.34\sources\common\lltoft.c
+C536 cinit CODE >1560:C:\Users\Dara\AppData\Local\Temp\sai8.
+C536 cinit CODE >1562:C:\Users\Dara\AppData\Local\Temp\sai8.
+C536 cinit CODE >1565:C:\Users\Dara\AppData\Local\Temp\sai8.
+C536 cinit CODE >1731:C:\Users\Dara\AppData\Local\Temp\sai8.
+C53A cinit CODE >1732:C:\Users\Dara\AppData\Local\Temp\sai8.
+C53C cinit CODE >1733:C:\Users\Dara\AppData\Local\Temp\sai8.
+C53C cinit CODE >1734:C:\Users\Dara\AppData\Local\Temp\sai8.
+C53E cinit CODE >1735:C:\Users\Dara\AppData\Local\Temp\sai8.
+C540 cinit CODE >1736:C:\Users\Dara\AppData\Local\Temp\sai8.
+C542 cinit CODE >1739:C:\Users\Dara\AppData\Local\Temp\sai8.
+C546 cinit CODE >1740:C:\Users\Dara\AppData\Local\Temp\sai8.
+C548 cinit CODE >1741:C:\Users\Dara\AppData\Local\Temp\sai8.
+C548 cinit CODE >1742:C:\Users\Dara\AppData\Local\Temp\sai8.
+C54A cinit CODE >1743:C:\Users\Dara\AppData\Local\Temp\sai8.
+C54C cinit CODE >1744:C:\Users\Dara\AppData\Local\Temp\sai8.
+C54E cinit CODE >1749:C:\Users\Dara\AppData\Local\Temp\sai8.
+C550 cinit CODE >1750:C:\Users\Dara\AppData\Local\Temp\sai8.
+C552 cinit CODE >1751:C:\Users\Dara\AppData\Local\Temp\sai8.
+C554 cinit CODE >1752:C:\Users\Dara\AppData\Local\Temp\sai8.
+C556 cinit CODE >1753:C:\Users\Dara\AppData\Local\Temp\sai8.
+C558 cinit CODE >1754:C:\Users\Dara\AppData\Local\Temp\sai8.
+C55A cinit CODE >1755:C:\Users\Dara\AppData\Local\Temp\sai8.
+C55E cinit CODE >1756:C:\Users\Dara\AppData\Local\Temp\sai8.
+C562 cinit CODE >1757:C:\Users\Dara\AppData\Local\Temp\sai8.
+C562 cinit CODE >1758:C:\Users\Dara\AppData\Local\Temp\sai8.
+C564 cinit CODE >1759:C:\Users\Dara\AppData\Local\Temp\sai8.
+C568 cinit CODE >1760:C:\Users\Dara\AppData\Local\Temp\sai8.
+C56A cinit CODE >1761:C:\Users\Dara\AppData\Local\Temp\sai8.
+C56C cinit CODE >1762:C:\Users\Dara\AppData\Local\Temp\sai8.
+C56E cinit CODE >1766:C:\Users\Dara\AppData\Local\Temp\sai8.
+C570 cinit CODE >1767:C:\Users\Dara\AppData\Local\Temp\sai8.
+C572 cinit CODE >1768:C:\Users\Dara\AppData\Local\Temp\sai8.
+C574 cinit CODE >1769:C:\Users\Dara\AppData\Local\Temp\sai8.
+C576 cinit CODE >1770:C:\Users\Dara\AppData\Local\Temp\sai8.
+C578 cinit CODE >1771:C:\Users\Dara\AppData\Local\Temp\sai8.
+C57A cinit CODE >1772:C:\Users\Dara\AppData\Local\Temp\sai8.
+C57E cinit CODE >1773:C:\Users\Dara\AppData\Local\Temp\sai8.
+C582 cinit CODE >1774:C:\Users\Dara\AppData\Local\Temp\sai8.
+C582 cinit CODE >1775:C:\Users\Dara\AppData\Local\Temp\sai8.
+C584 cinit CODE >1776:C:\Users\Dara\AppData\Local\Temp\sai8.
+C588 cinit CODE >1777:C:\Users\Dara\AppData\Local\Temp\sai8.
+C58A cinit CODE >1778:C:\Users\Dara\AppData\Local\Temp\sai8.
+C58C cinit CODE >1779:C:\Users\Dara\AppData\Local\Temp\sai8.
+C58E cinit CODE >1785:C:\Users\Dara\AppData\Local\Temp\sai8.
+C58E cinit CODE >1787:C:\Users\Dara\AppData\Local\Temp\sai8.
+C590 cinit CODE >1788:C:\Users\Dara\AppData\Local\Temp\sai8.
+C592 cinit CODE >1789:C:\Users\Dara\AppData\Local\Temp\sai8.
+C594 cinit CODE >1790:C:\Users\Dara\AppData\Local\Temp\sai8.
+C598 text8 CODE >718:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C598 text8 CODE >720:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C5AE text8 CODE >721:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C5CA text8 CODE >722:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C5E0 text8 CODE >723:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C5FC text8 CODE >724:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C5FE text32 CODE >8:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C5FE text32 CODE >13:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C60A text32 CODE >14:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C60E text32 CODE >15:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C610 text32 CODE >16:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C61A text32 CODE >17:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C61E text32 CODE >15:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C626 text32 CODE >20:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C63A text32 CODE >21:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C64C text32 CODE >22:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C656 text32 CODE >23:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C65C text32 CODE >24:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C65C text32 CODE >25:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C66C text32 CODE >26:C:\My Programs\Microchip\xc8\v1.34\sources\common\llmod.c
+C66E text2 CODE >73:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C670 text2 CODE >75:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C674 text2 CODE >76:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C678 text2 CODE >78:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C67C text2 CODE >79:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C680 text2 CODE >81:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C684 text2 CODE >83:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C686 text2 CODE >84:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C68A text2 CODE >87:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C68E text2 CODE >88:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C692 text2 CODE >90:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C696 text2 CODE >91:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C69A text2 CODE >92:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C69A text2 CODE >93:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C69E text2 CODE >95:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6A0 text2 CODE >96:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6A2 text2 CODE >98:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6A4 text2 CODE >100:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6A8 text2 CODE >101:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6AC text2 CODE >103:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6B0 text2 CODE >104:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6B4 text2 CODE >105:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6B4 text2 CODE >106:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6B6 text2 CODE >108:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6B8 text2 CODE >110:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6BC text2 CODE >111:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6C0 text2 CODE >112:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6C0 text2 CODE >113:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6C2 text2 CODE >115:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6C6 text2 CODE >116:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6CA text2 CODE >118:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6CC text2 CODE >119:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6CE text2 CODE >137:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6D2 text2 CODE >138:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6D8 text2 CODE >139:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6DC text2 CODE >143:C:\My Programs\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+C6DE text65 CODE >8:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C6DE text65 CODE >13:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C6E2 text65 CODE >14:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C6E6 text65 CODE >15:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C6EE text65 CODE >16:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C6F4 text65 CODE >18:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C6F8 text65 CODE >19:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C702 text65 CODE >20:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C70A text65 CODE >21:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C70E text65 CODE >22:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C710 text65 CODE >23:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C716 text65 CODE >24:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C71A text65 CODE >22:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C722 text65 CODE >27:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C72E text65 CODE >28:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C738 text65 CODE >29:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C73E text65 CODE >30:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C744 text65 CODE >32:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C74A text65 CODE >33:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C754 text65 CODE >34:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C75E text65 CODE >35:C:\My Programs\Microchip\xc8\v1.34\sources\common\awmod.c
+C760 text21 CODE >461:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C760 text21 CODE >463:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C762 text21 CODE >464:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C776 text21 CODE >465:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C79A text21 CODE >467:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C79E text21 CODE >469:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C7A0 text21 CODE >470:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C7B4 text21 CODE >471:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C7D8 text21 CODE >473:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C7DC text21 CODE >474:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C7E0 text21 CODE >476:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+C7E2 text58 CODE >449:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C7E4 text58 CODE >452:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C7F0 text58 CODE >453:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C7F2 text58 CODE >454:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C820 text58 CODE >455:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C82A text58 CODE >456:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C832 text58 CODE >457:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C84A text58 CODE >458:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C84C text58 CODE >459:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C84E text58 CODE >461:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C850 text58 CODE >462:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C856 text58 CODE >463:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C85E text58 CODE >461:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C866 text58 CODE >465:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C868 text58 CODE >468:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C86A text9 CODE >657:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C86C text9 CODE >660:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C878 text9 CODE >661:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C87A text9 CODE >662:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C8A8 text9 CODE >663:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C8B2 text9 CODE >664:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C8BA text9 CODE >665:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C8D2 text9 CODE >666:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C8D4 text9 CODE >667:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C8D6 text9 CODE >669:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C8D8 text9 CODE >670:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C8DE text9 CODE >671:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C8E6 text9 CODE >669:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C8EE text9 CODE >673:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C8F0 text9 CODE >675:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+C8F2 text33 CODE >8:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C8F2 text33 CODE >14:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C902 text33 CODE >15:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C90E text33 CODE >16:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C912 text33 CODE >17:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C914 text33 CODE >18:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C91E text33 CODE >19:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C922 text33 CODE >17:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C92A text33 CODE >22:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C934 text33 CODE >23:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C948 text33 CODE >24:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C958 text33 CODE >25:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C95C text33 CODE >27:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C966 text33 CODE >28:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C96C text33 CODE >29:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C96C text33 CODE >30:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C97C text33 CODE >31:C:\My Programs\Microchip\xc8\v1.34\sources\common\lldiv.c
+C97E text66 CODE >8:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C97E text66 CODE >14:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C982 text66 CODE >15:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C986 text66 CODE >16:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C98E text66 CODE >17:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C994 text66 CODE >19:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C998 text66 CODE >20:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9A0 text66 CODE >21:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9A6 text66 CODE >23:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9AE text66 CODE >24:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9B6 text66 CODE >25:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9BA text66 CODE >26:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9BC text66 CODE >27:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9C2 text66 CODE >28:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9C6 text66 CODE >26:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9CE text66 CODE >31:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9D4 text66 CODE >32:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9E0 text66 CODE >33:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9E8 text66 CODE >34:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9EC text66 CODE >36:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9F2 text66 CODE >37:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9F8 text66 CODE >39:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+C9FE text66 CODE >40:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+CA08 text66 CODE >41:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+CA12 text66 CODE >42:C:\My Programs\Microchip\xc8\v1.34\sources\common\awdiv.c
+CA14 text38 CODE >4:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftge.c
+CA14 text38 CODE >6:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftge.c
+CA18 text38 CODE >7:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftge.c
+CA46 text38 CODE >8:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftge.c
+CA4A text38 CODE >9:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftge.c
+CA78 text38 CODE >10:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftge.c
+CA84 text38 CODE >11:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftge.c
+CA90 text38 CODE >12:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftge.c
+CAA8 text38 CODE >13:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftge.c
+CAAA text0 CODE >293:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CAAA text0 CODE >295:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CAAE text0 CODE >296:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CAB2 text0 CODE >297:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CAB6 text0 CODE >298:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CABC text0 CODE >300:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CAC0 text0 CODE >301:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CAC2 text0 CODE >302:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CAC8 text0 CODE >306:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CAD4 text0 CODE >307:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB1C text0 CODE >309:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB3C text0 CODE >311:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB40 text0 CODE >312:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB42 text0 CODE >315:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB46 text0 CODE >304:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB48 text0 CODE >318:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB4C text4 CODE >379:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB4C text4 CODE >381:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB56 text4 CODE >382:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB58 text4 CODE >383:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB60 text4 CODE >387:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB66 text4 CODE >388:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB6C text4 CODE >389:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB72 text4 CODE >390:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB78 text4 CODE >392:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB7E text4 CODE >393:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB84 text4 CODE >395:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB8A text4 CODE >396:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB90 text4 CODE >398:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB94 text4 CODE >400:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CB9A text4 CODE >401:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBA0 text4 CODE >402:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBA6 text4 CODE >403:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBAC text4 CODE >404:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBB4 text4 CODE >407:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBBA text4 CODE >408:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBC0 text4 CODE >410:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBC6 text4 CODE >411:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBCC text4 CODE >413:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBD2 text4 CODE >415:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBD6 text4 CODE >417:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBDC text4 CODE >418:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBE2 text4 CODE >420:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBE8 text4 CODE >421:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBEE text4 CODE >423:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBF4 text4 CODE >425:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBF6 text4 CODE >385:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBF8 text4 CODE >428:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBFA text18 CODE >320:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBFA text18 CODE >322:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CBFC text18 CODE >323:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC04 text18 CODE >327:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC0A text18 CODE >328:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC10 text18 CODE >329:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC16 text18 CODE >330:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC1C text18 CODE >332:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC20 text18 CODE >334:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC2A text18 CODE >335:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC2A text18 CODE >336:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC30 text18 CODE >338:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC36 text18 CODE >339:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC3C text18 CODE >341:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC42 text18 CODE >343:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC46 text18 CODE >345:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC4C text18 CODE >346:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC52 text18 CODE >347:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC58 text18 CODE >348:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC5E text18 CODE >349:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC66 text18 CODE >352:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC6C text18 CODE >354:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC70 text18 CODE >356:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC7A text18 CODE >357:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC7A text18 CODE >358:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC80 text18 CODE >360:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC86 text18 CODE >361:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC8C text18 CODE >363:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC92 text18 CODE >365:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC96 text18 CODE >367:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CC9C text18 CODE >368:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CCA2 text18 CODE >370:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CCA8 text18 CODE >371:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CCAE text18 CODE >373:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CCB4 text18 CODE >375:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CCB6 text18 CODE >325:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CCB8 text18 CODE >377:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+CCBA text42 CODE >62:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CCBA text42 CODE >64:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CCCA text42 CODE >65:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CCD8 text42 CODE >66:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CCDA text42 CODE >67:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CCDC text42 CODE >68:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CCE6 text42 CODE >66:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD04 text42 CODE >70:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD06 text42 CODE >71:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD08 text42 CODE >72:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD14 text42 CODE >73:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD1E text42 CODE >70:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD3C text42 CODE >75:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD3E text42 CODE >76:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD40 text42 CODE >77:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD4A text42 CODE >75:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD56 text42 CODE >79:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD5A text42 CODE >80:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD5E text42 CODE >81:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD62 text42 CODE >82:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD66 text42 CODE >83:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD6C text42 CODE >84:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD70 text42 CODE >85:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD7E text42 CODE >86:C:\My Programs\Microchip\xc8\v1.34\sources\common\float.c
+CD80 text7 CODE >536:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CD82 text7 CODE >539:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CD8E text7 CODE >540:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CD90 text7 CODE >541:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CDBE text7 CODE >542:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CDC6 text7 CODE >543:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CDF4 text7 CODE >544:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CDFE text7 CODE >545:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE1C text7 CODE >546:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE24 text7 CODE >547:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE26 text7 CODE >548:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE28 text7 CODE >550:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE36 text7 CODE >551:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE44 text7 CODE >552:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE4A text7 CODE >553:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE50 text7 CODE >551:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE54 text7 CODE >550:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE58 text7 CODE >556:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE5A text7 CODE >559:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE5C text54 CODE >507:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE5E text54 CODE >511:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE66 text54 CODE >512:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE7A text54 CODE >513:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CE84 text54 CODE >514:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CEAC text54 CODE >515:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CEB0 text54 CODE >516:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CEBC text54 CODE >517:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CEC8 text54 CODE >518:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CEE2 text54 CODE >519:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CF10 text54 CODE >520:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CF1A text54 CODE >521:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CF26 text54 CODE >513:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CF38 text54 CODE >523:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+CF3A text40 CODE >54:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CF3A text40 CODE >63:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CF54 text40 CODE >64:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CF58 text40 CODE >65:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CF72 text40 CODE >66:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CF80 text40 CODE >67:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CF8C text40 CODE >68:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CF92 text40 CODE >69:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CF96 text40 CODE >70:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CF9A text40 CODE >71:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CF9E text40 CODE >72:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CFA0 text40 CODE >73:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CFAC text40 CODE >74:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CFAE text40 CODE >75:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CFBA text40 CODE >76:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CFC0 text40 CODE >78:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CFC8 text40 CODE >79:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CFD8 text40 CODE >80:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CFE4 text40 CODE >81:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CFE6 text40 CODE >82:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CFE6 text40 CODE >83:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CFEE text40 CODE >84:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+CFF4 text40 CODE >85:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+D01A text40 CODE >86:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdiv.c
+D01C text34 CODE >44:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D01C text34 CODE >49:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D036 text34 CODE >50:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D03A text34 CODE >51:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D060 text34 CODE >52:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D062 text34 CODE >53:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D06E text34 CODE >54:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D07C text34 CODE >55:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D080 text34 CODE >56:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D084 text34 CODE >57:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D08E text34 CODE >58:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D094 text34 CODE >60:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D09E text34 CODE >61:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D0A2 text34 CODE >62:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D0A4 text34 CODE >63:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D0AA text34 CODE >64:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D0BC text34 CODE >65:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D0BE text34 CODE >66:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D0C8 text34 CODE >67:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D0CC text34 CODE >65:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D0D6 text34 CODE >70:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D0DC text34 CODE >71:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D0EE text34 CODE >72:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D100 text34 CODE >73:C:\My Programs\Microchip\xc8\v1.34\sources\common\fttol.c
+D102 text53 CODE >676:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D102 text53 CODE >677:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D104 text53 CODE >678:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D120 text53 CODE >679:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D122 text53 CODE >682:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D13C text53 CODE >683:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D156 text53 CODE >684:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D17A text53 CODE >685:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D17C text53 CODE >688:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D196 text53 CODE >689:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D1B0 text53 CODE >690:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D1D6 text53 CODE >692:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D1D8 text53 CODE >679:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D1E8 text53 CODE >694:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D1EA text11 CODE >371:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D1EA text11 CODE >373:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D1F0 text11 CODE >374:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D208 text11 CODE >375:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D220 text11 CODE >376:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D238 text11 CODE >377:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D250 text11 CODE >378:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D256 text11 CODE >379:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D26E text11 CODE >380:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D286 text11 CODE >381:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D29E text11 CODE >382:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D2B6 text11 CODE >383:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D2BC text11 CODE >384:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D2C8 text11 CODE >385:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D2CE text11 CODE >386:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D2DA text11 CODE >387:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D2DC text28 CODE >62:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D2DC text28 CODE >67:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D2F6 text28 CODE >68:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D2FA text28 CODE >69:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D314 text28 CODE >70:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D322 text28 CODE >71:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D328 text28 CODE >72:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D32C text28 CODE >73:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D330 text28 CODE >74:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D334 text28 CODE >75:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D336 text28 CODE >77:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D338 text28 CODE >78:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D344 text28 CODE >79:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D350 text28 CODE >134:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D356 text28 CODE >136:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D35A text28 CODE >137:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D368 text28 CODE >138:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D370 text28 CODE >139:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D378 text28 CODE >140:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D37E text28 CODE >143:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D384 text28 CODE >145:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D388 text28 CODE >146:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D396 text28 CODE >147:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D39E text28 CODE >148:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D3A6 text28 CODE >149:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D3AC text28 CODE >156:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D3D2 text28 CODE >157:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftmul.c
+D3D4 text30 CODE >60:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D3D4 text30 CODE >66:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D3E0 text30 CODE >67:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D3E4 text30 CODE >68:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D3F0 text30 CODE >69:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D3F4 text30 CODE >70:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D3F6 text30 CODE >71:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D406 text30 CODE >72:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D408 text30 CODE >73:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D418 text30 CODE >74:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D428 text30 CODE >75:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D42C text30 CODE >76:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D432 text30 CODE >77:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D438 text30 CODE >79:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D442 text30 CODE >80:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D456 text30 CODE >81:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D466 text30 CODE >82:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D46A text30 CODE >84:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D474 text30 CODE >85:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D47A text30 CODE >86:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D47E text30 CODE >87:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D488 text30 CODE >88:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D48E text30 CODE >90:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D498 text30 CODE >91:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D49C text30 CODE >92:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D49E text30 CODE >93:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D4A4 text30 CODE >94:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D4B6 text30 CODE >95:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D4B8 text30 CODE >96:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D4C2 text30 CODE >97:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D4C6 text30 CODE >95:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D4CC text30 CODE >99:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D4CC text30 CODE >100:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D4DC text30 CODE >101:C:\My Programs\Microchip\xc8\v1.34\sources\common\fldivl.c
+D4DE text29 CODE >60:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D4DE text29 CODE >66:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D4F8 text29 CODE >67:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D4FC text29 CODE >68:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D516 text29 CODE >69:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D51A text29 CODE >70:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D51C text29 CODE >71:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D528 text29 CODE >72:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D52A text29 CODE >73:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D536 text29 CODE >74:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D546 text29 CODE >75:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D54A text29 CODE >76:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D550 text29 CODE >77:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D554 text29 CODE >78:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D554 text29 CODE >79:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D55E text29 CODE >80:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D56E text29 CODE >81:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D57A text29 CODE >82:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D57C text29 CODE >83:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D57C text29 CODE >84:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D584 text29 CODE >85:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D58A text29 CODE >86:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D58E text29 CODE >87:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D598 text29 CODE >88:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D59E text29 CODE >90:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D5A8 text29 CODE >91:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D5AC text29 CODE >92:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D5AE text29 CODE >93:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D5B4 text29 CODE >94:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D5C6 text29 CODE >95:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D5C8 text29 CODE >96:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D5D2 text29 CODE >97:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D5D6 text29 CODE >95:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D5DC text29 CODE >99:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D5DC text29 CODE >100:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D5EC text29 CODE >101:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftdivl.c
+D5EE text13 CODE >314:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D5EE text13 CODE >316:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D5F4 text13 CODE >317:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D600 text13 CODE >318:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D606 text13 CODE >319:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D612 text13 CODE >320:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D618 text13 CODE >321:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D61E text13 CODE >322:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D624 text13 CODE >323:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D62A text13 CODE >324:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D630 text13 CODE >325:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D636 text13 CODE >326:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D63C text13 CODE >327:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D642 text13 CODE >328:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D648 text13 CODE >329:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D64E text13 CODE >330:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D654 text13 CODE >331:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D65A text13 CODE >332:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D660 text13 CODE >333:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D666 text13 CODE >334:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D66C text13 CODE >335:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D672 text13 CODE >336:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D678 text13 CODE >337:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D67E text13 CODE >338:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D684 text13 CODE >339:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D68A text13 CODE >340:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D690 text13 CODE >341:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D696 text13 CODE >342:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D69C text13 CODE >343:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6A2 text13 CODE >344:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6A8 text13 CODE >345:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6AE text13 CODE >346:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6B4 text13 CODE >347:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6BA text13 CODE >348:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6C0 text13 CODE >349:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6C6 text13 CODE >350:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6CC text13 CODE >351:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6D2 text13 CODE >352:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6D8 text13 CODE >353:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6DE text13 CODE >354:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6E4 text13 CODE >355:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6EA text13 CODE >356:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6F0 text13 CODE >357:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6F6 text13 CODE >358:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6FC text13 CODE >359:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6FE text50 CODE >622:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D6FE text50 CODE >625:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D750 text50 CODE >626:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D752 text50 CODE >627:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D756 text50 CODE >628:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D75C text50 CODE >629:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D764 text50 CODE >630:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D76C text50 CODE >631:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D76C text50 CODE >632:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D770 text50 CODE >633:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D778 text50 CODE >634:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D780 text50 CODE >636:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D784 text50 CODE >637:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D7A8 text50 CODE >638:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D7CE text50 CODE >640:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D7D2 text50 CODE >641:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D7F8 text50 CODE >642:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D81E text50 CODE >643:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D820 text50 CODE >626:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D834 text50 CODE >645:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D836 text56 CODE >480:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D838 text56 CODE >483:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D844 text56 CODE >484:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D846 text56 CODE >485:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D852 text56 CODE >486:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D860 text56 CODE >487:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D864 text56 CODE >488:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D870 text56 CODE >490:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D876 text56 CODE >491:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D8A0 text56 CODE >493:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D8D4 text56 CODE >494:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D8E0 text56 CODE >495:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D8E4 text56 CODE >496:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D902 text56 CODE >497:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D928 text56 CODE >498:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D92A text56 CODE >499:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D938 text56 CODE >500:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D956 text56 CODE >501:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D97C text56 CODE >502:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D97E text56 CODE >494:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D986 text56 CODE >488:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D98A text56 CODE >505:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+D98C text20 CODE >638:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D98C text20 CODE >639:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D98E text20 CODE >640:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D9AA text20 CODE >641:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D9AC text20 CODE >644:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D9C6 text20 CODE >645:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+D9E0 text20 CODE >646:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DA04 text20 CODE >647:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DA06 text20 CODE >650:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DA20 text20 CODE >651:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DA3A text20 CODE >652:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DA60 text20 CODE >653:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DA62 text20 CODE >656:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DA7C text20 CODE >657:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DA96 text20 CODE >659:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DABA text20 CODE >660:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DABC text20 CODE >663:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DAD6 text20 CODE >664:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DAF0 text20 CODE >666:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DB16 text20 CODE >670:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DB18 text20 CODE >641:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DB34 text20 CODE >674:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DB36 text51 CODE >561:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DB36 text51 CODE >564:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DB88 text51 CODE >565:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DB9C text51 CODE >566:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DBB2 text51 CODE >567:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DBC6 text51 CODE >568:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DBDC text51 CODE >569:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DBDE text51 CODE >570:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DBE2 text51 CODE >571:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DBE8 text51 CODE >572:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DBF0 text51 CODE >573:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DBF8 text51 CODE >574:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DBF8 text51 CODE >575:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DBFC text51 CODE >576:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DC04 text51 CODE >577:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DC0C text51 CODE >578:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DC22 text51 CODE >579:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DC3A text51 CODE >580:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DC52 text51 CODE >581:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DC6C text51 CODE >582:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DC82 text51 CODE >583:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DC9A text51 CODE >584:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DCB2 text51 CODE >585:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DCCE text51 CODE >569:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DCE2 text51 CODE >587:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\ST7735_TFT.c
+DCE4 text36 CODE >86:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DCE4 text36 CODE >90:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DCF8 text36 CODE >91:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD0C text36 CODE >92:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD28 text36 CODE >93:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD36 text36 CODE >94:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD52 text36 CODE >95:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD60 text36 CODE >96:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD64 text36 CODE >97:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD68 text36 CODE >98:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD6C text36 CODE >99:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD6E text36 CODE >100:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD70 text36 CODE >101:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD72 text36 CODE >102:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD7E text36 CODE >103:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD80 text36 CODE >104:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD8C text36 CODE >106:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD94 text36 CODE >110:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD9C text36 CODE >111:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DD9E text36 CODE >112:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DDB6 text36 CODE >113:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DDB8 text36 CODE >114:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DDC0 text36 CODE >115:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DDC4 text36 CODE >113:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DDCE text36 CODE >117:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DDD8 text36 CODE >121:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DDE0 text36 CODE >122:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DDE2 text36 CODE >123:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DDFA text36 CODE >124:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DDFC text36 CODE >125:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE04 text36 CODE >126:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE08 text36 CODE >124:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE14 text36 CODE >129:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE18 text36 CODE >131:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE24 text36 CODE >132:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE30 text36 CODE >133:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE30 text36 CODE >134:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE34 text36 CODE >136:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE40 text36 CODE >137:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE4E text36 CODE >139:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE52 text36 CODE >140:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE5E text36 CODE >141:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE62 text36 CODE >142:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE6E text36 CODE >143:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE7A text36 CODE >144:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DE80 text36 CODE >146:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DEA6 text36 CODE >148:C:\My Programs\Microchip\xc8\v1.34\sources\common\ftadd.c
+DEA8 text22 CODE >696:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DEA8 text22 CODE >698:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DEB4 text22 CODE >699:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DEFC text22 CODE >701:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DF14 text22 CODE >704:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DF34 text22 CODE >706:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DF38 text22 CODE >710:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DF3E text22 CODE >714:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DF46 text22 CODE >715:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DF4E text22 CODE >716:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DF56 text22 CODE >717:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DF5E text22 CODE >719:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DF6E text22 CODE >720:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DF7E text22 CODE >721:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DF8E text22 CODE >722:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DF9C text22 CODE >723:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DFAC text22 CODE >725:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DFD0 text22 CODE >726:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+DFF4 text22 CODE >727:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E018 text22 CODE >728:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E03C text22 CODE >729:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E060 text22 CODE >731:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E084 text22 CODE >733:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E086 text27 CODE >409:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E088 text27 CODE >413:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E08E text27 CODE >414:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E1C4 text27 CODE >415:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E1CA text27 CODE >416:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E288 text27 CODE >417:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E2C8 text27 CODE >418:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E2CA text48 CODE >590:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E2CA text48 CODE >591:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E2CC text48 CODE >593:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E2D6 text48 CODE >595:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E2DC text48 CODE >597:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E2FE text48 CODE >598:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E320 text48 CODE >599:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E342 text48 CODE >600:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E364 text48 CODE >601:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E386 text48 CODE >602:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E3AA text48 CODE >605:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E3B0 text48 CODE >607:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E3D2 text48 CODE >608:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E3F4 text48 CODE >609:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E416 text48 CODE >610:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E438 text48 CODE >611:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E45A text48 CODE >612:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E47E text48 CODE >615:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E486 text48 CODE >617:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E4A8 text48 CODE >618:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E4CA text48 CODE >619:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E4EC text48 CODE >620:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E50E text48 CODE >621:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E530 text48 CODE >622:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E554 text48 CODE >625:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E55C text48 CODE >627:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E57E text48 CODE >628:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E5A0 text48 CODE >629:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E5C2 text48 CODE >630:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E5E4 text48 CODE >631:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E606 text48 CODE >632:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E62A text48 CODE >636:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+E62C text24 CODE >425:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E62E text24 CODE >428:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E632 text24 CODE >429:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E634 text24 CODE >430:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E63E text24 CODE >431:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E758 text24 CODE >432:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E762 text24 CODE >433:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E800 text24 CODE >434:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E810 text24 CODE >436:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E81A text24 CODE >437:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E934 text24 CODE >438:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E93E text24 CODE >439:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+E9E6 text24 CODE >440:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+EA0A text24 CODE >441:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+EA0C text5 CODE >190:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EA0C text5 CODE >192:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EA10 text5 CODE >193:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EA14 text5 CODE >194:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EA20 text5 CODE >197:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EA28 text5 CODE >198:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EA3C text5 CODE >199:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EA60 text5 CODE >202:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EA74 text5 CODE >203:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EA98 text5 CODE >204:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EABC text5 CODE >207:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EAD0 text5 CODE >208:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EAF4 text5 CODE >209:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EB18 text5 CODE >212:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EB2C text5 CODE >213:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EB50 text5 CODE >214:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EB74 text5 CODE >217:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EB88 text5 CODE >218:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EBAC text5 CODE >221:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EBC0 text5 CODE >222:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EBE4 text5 CODE >223:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EC0E text5 CODE >224:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EC32 text5 CODE >225:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EC56 text5 CODE >226:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EC7A text5 CODE >227:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EC9E text5 CODE >230:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+ECB2 text5 CODE >231:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+ECD6 text5 CODE >232:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+ED00 text5 CODE >233:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+ED24 text5 CODE >234:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+ED48 text5 CODE >235:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+ED6C text5 CODE >236:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+ED90 text5 CODE >239:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EDA4 text5 CODE >240:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EDCA text5 CODE >241:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EDF6 text5 CODE >242:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EE1A text5 CODE >243:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EE3E text5 CODE >244:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EE62 text5 CODE >245:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EE88 text5 CODE >248:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EE9C text5 CODE >249:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EEC2 text5 CODE >250:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EEEE text5 CODE >251:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EF12 text5 CODE >252:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EF36 text5 CODE >253:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EF5A text5 CODE >254:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EF80 text5 CODE >258:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EFA4 text5 CODE >259:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EFB8 text5 CODE >260:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EFDC text5 CODE >263:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+EFF0 text5 CODE >264:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+F016 text5 CODE >265:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+F03C text5 CODE >268:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+F050 text5 CODE >269:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+F074 text5 CODE >270:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+F098 text5 CODE >271:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+F0BC text5 CODE >272:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+F0E0 text5 CODE >273:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+F104 text5 CODE >275:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+F128 text5 CODE >276:C:\Users\Dara\MPLABXProjects\Lab8\Part1\Lab8p1.X\Lab8p1.c
+F12A text23 CODE >464:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F12A text23 CODE >533:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F132 text23 CODE >536:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F136 text23 CODE >538:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F13E text23 CODE >541:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F144 text23 CODE >542:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F148 text23 CODE >546:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F150 text23 CODE >548:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F158 text23 CODE >551:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F15A text23 CODE >580:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F15C text23 CODE >581:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F160 text23 CODE >582:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F162 text23 CODE >584:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F164 text23 CODE >551:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F176 text23 CODE >585:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F178 text23 CODE >586:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F17A text23 CODE >597:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F18E text23 CODE >598:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F198 text23 CODE >600:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F1B4 text23 CODE >601:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F1E0 text23 CODE >602:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F1F8 text23 CODE >611:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F20A text23 CODE >612:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F20C text23 CODE >613:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F210 text23 CODE >621:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F218 text23 CODE >622:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F21A text23 CODE >623:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F252 text23 CODE >622:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F268 text23 CODE >625:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F26A text23 CODE >626:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F272 text23 CODE >628:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F274 text23 CODE >635:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F276 text23 CODE >638:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F278 text23 CODE >663:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F27A text23 CODE >664:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F27C text23 CODE >813:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F27E text23 CODE >822:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F280 text23 CODE >635:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F2A2 text23 CODE >825:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F2AA text23 CODE >827:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F2AE text23 CODE >829:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F2B8 text23 CODE >830:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F2D4 text23 CODE >831:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F2D8 text23 CODE >832:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F2F4 text23 CODE >833:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F2FA text23 CODE >835:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F302 text23 CODE >836:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F30C text23 CODE >837:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F342 text23 CODE >838:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F348 text23 CODE >839:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F364 text23 CODE >840:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F380 text23 CODE >841:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F384 text23 CODE >842:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F38C text23 CODE >846:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F3A0 text23 CODE >847:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F3C8 text23 CODE >848:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F3E8 text23 CODE >849:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F3F0 text23 CODE >850:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F410 text23 CODE >851:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F414 text23 CODE >852:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F416 text23 CODE >1112:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F426 text23 CODE >1113:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F456 text23 CODE >1116:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F49E text23 CODE >1120:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F4BE text23 CODE >1121:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F4C2 text23 CODE >1123:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F4CC text23 CODE >1125:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F4DE text23 CODE >1126:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F53C text23 CODE >1129:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F548 text23 CODE >1130:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F54A text23 CODE >1131:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F56A text23 CODE >1132:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F5A6 text23 CODE >1133:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F5B0 text23 CODE >1136:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F5C0 text23 CODE >1137:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F5EE text23 CODE >1138:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F5F0 text23 CODE >1136:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F5F4 text23 CODE >1142:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F616 text23 CODE >1147:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F61E text23 CODE >1148:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F626 text23 CODE >1149:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F63A text23 CODE >1150:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F642 text23 CODE >1153:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F646 text23 CODE >1157:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F65A text23 CODE >1159:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F660 text23 CODE >1168:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F662 text23 CODE >1169:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F668 text23 CODE >1170:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F670 text23 CODE >1168:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F680 text23 CODE >1173:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F682 text23 CODE >1180:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F684 text23 CODE >1181:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F68A text23 CODE >1182:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F692 text23 CODE >1180:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F6A0 text23 CODE >1188:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F6B4 text23 CODE >1190:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F6BA text23 CODE >1196:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F6BC text23 CODE >1201:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F708 text23 CODE >1202:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F73C text23 CODE >1203:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F746 text23 CODE >1196:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F750 text23 CODE >1207:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F752 text23 CODE >1208:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F758 text23 CODE >1209:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F760 text23 CODE >1207:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F76E text23 CODE >1211:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F77E text23 CODE >1212:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F784 text23 CODE >1213:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F784 text23 CODE >1214:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F78A text23 CODE >1215:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F796 text23 CODE >1219:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F79C text23 CODE >1221:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F7A4 text23 CODE >1227:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F7F2 text23 CODE >1228:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F7F4 text23 CODE >1229:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F840 text23 CODE >1230:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F874 text23 CODE >1231:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F87C text23 CODE >1232:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F8CA text23 CODE >1228:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F8D4 text23 CODE >1235:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F8D6 text23 CODE >1236:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F8DC text23 CODE >1237:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F8E4 text23 CODE >1235:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F8EE text23 CODE >1245:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F8F0 text23 CODE >1290:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F904 text23 CODE >1291:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F90A text23 CODE >1339:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F920 text23 CODE >1340:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F926 text23 CODE >1341:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F93C text23 CODE >1342:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F948 text23 CODE >1345:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F964 text23 CODE >1346:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F96C text23 CODE >1348:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F970 text23 CODE >1349:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F984 text23 CODE >1350:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F98E text23 CODE >1352:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F998 text23 CODE >1381:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F9AE text23 CODE >1382:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F9BC text23 CODE >1384:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F9C6 text23 CODE >1387:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F9CA text23 CODE >1392:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F9DE text23 CODE >1393:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F9E6 text23 CODE >1415:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F9EE text23 CODE >1417:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+F9F4 text23 CODE >1418:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+FA04 text23 CODE >1420:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+FA06 text23 CODE >1428:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+FA0E text23 CODE >1430:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+FA14 text23 CODE >1431:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+FA26 text23 CODE >1438:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+FA3A text23 CODE >1439:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+FA40 text23 CODE >1469:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+FA42 text23 CODE >536:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+FA60 text23 CODE >1541:C:\My Programs\Microchip\xc8\v1.34\sources\common\doprnt.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_NS_Count 94 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+_FlashingR_Txt 9F 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+_FlashingS_Txt A1 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_spiwrite BF70 0 CODE 0 text63 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_WAIT_1_SEC C7E2 0 CODE 0 text21 dist/default/debug\Lab8p1.X.debug.obj
+___awdiv@counter B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_WAIT_HALF_SEC BFCA 0 CODE 0 text68 dist/default/debug\Lab8p1.X.debug.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+drawCircle@f 1A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawCircle@r 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawCircle@x 1C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawCircle@y 1E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Lmediumconst FA62 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab8p1.X.debug.obj
+__end_of_WAIT_N_SEC C0FC 0 CODE 0 text19 dist/default/debug\Lab8p1.X.debug.obj
+_SW_NSLT_Txt A5 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+__Hspace_0 30000E 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__Hspace_1 CF 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__Hspace_2 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+__end_of__tdiv_to_l_ D5EE 0 CODE 0 text29 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_write_data BF38 0 CODE 0 text61 dist/default/debug\Lab8p1.X.debug.obj
+___ftdiv@exp 26 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/debug\Lab8p1.X.debug.obj
+__size_of_fillCircle 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+update_LCD_PED_Count@count 3A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__mediumconst FA62 0 MEDIUMCONST 0 mediumconst C:\Users\Dara\AppData\Local\Temp\sai8.obj
+___awtoft@sign 18 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillCircleHelper@cornername 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Lab8p1.X.debug.obj
+drawtext@cursor_x 39 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawtext@cursor_y 38 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Init_TRIS BFB0 0 CODE 0 text16 dist/default/debug\Lab8p1.X.debug.obj
+drawtext@i 36 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawtext@x 35 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawtext@y 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Init_TRIS 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\Lab8p1.X.debug.obj
+_MODE AC 0 BANK0 1 bssBANK0 dist/default/debug\Lab8p1.X.debug.obj
+_RBPU 7F8F 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_TRMT 7D61 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+___sp 0 0 STACK 2 stack C:\Users\Dara\AppData\Local\Temp\sai8.obj
+_font FA63 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab8p1.X.debug.obj
+_main CAAA 0 CODE 0 text0 dist/default/debug\Lab8p1.X.debug.obj
+_wrap 7B 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftadd@f1 2E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftadd@f2 31 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+start 0 0 CODE 0 init C:\Users\Dara\AppData\Local\Temp\sai8.obj
+fillCircle@color 31 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of___awmod 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of___ftadd 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of___ftdiv 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of___ftmul 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of___ftneg 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of___ftsub 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of___fttol 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__CFG_BOREN$OFF 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_main 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of___lldiv 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of___llmod 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Activate_Buzzer 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_PED_Control C12C 0 CODE 0 text52 dist/default/debug\Lab8p1.X.debug.obj
+_fillRectangle CD80 0 CODE 0 text7 dist/default/debug\Lab8p1.X.debug.obj
+?___wmul F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillCircleHelper@x0 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillCircleHelper@y0 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+update_LCD_count@count 3A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftdiv@f1 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftdiv@f2 1C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftdiv@f3 23 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+update_LCD_count@direction 3C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+_Init_TRIS BF9A 0 CODE 0 text16 dist/default/debug\Lab8p1.X.debug.obj
+__CFG_CCP2MX$PORTBE 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Day_Mode 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Set_EWLT 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Set_NSLT 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+drawtext@_text 2A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawtext@color 2C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Hpowerup 0 0 CODE 0 powerup dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Set_EW C28A 0 CODE 0 text47 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Set_NS C312 0 CODE 0 text45 dist/default/debug\Lab8p1.X.debug.obj
+printf@c 63 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+printf@f 40 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___awmod@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftge@ff1 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftge@ff2 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_T0CONbits FD5 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__end_of__npowers_ FC8D 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab8p1.X.debug.obj
+_PED_Count 70 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__accesstop 80 0 ABS 0 - C:\Users\Dara\AppData\Local\Temp\sai8.obj
+intlevel0 0 0 CODE 0 text C:\Users\Dara\AppData\Local\Temp\sai8.obj
+intlevel1 0 0 CODE 0 text C:\Users\Dara\AppData\Local\Temp\sai8.obj
+intlevel2 0 0 CODE 0 text C:\Users\Dara\AppData\Local\Temp\sai8.obj
+intlevel3 0 0 CODE 0 text C:\Users\Dara\AppData\Local\Temp\sai8.obj
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of__div_to_l_ 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Lab8p1.X.debug.obj
+_PED_EW_Count 97 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+___llmod@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Select_ADC_Channel 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+?_fround 24 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Deactivate_Buzzer 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+fillScreen@color 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/debug\Lab8p1.X.debug.obj
+?__div_to_l_ 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___awdiv@sign C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+setAddrWindow@x0 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+setAddrWindow@x1 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+setAddrWindow@y0 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+setAddrWindow@y1 6 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/debug\Lab8p1.X.debug.obj
+__size_of_fillScreen 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__pidataCOMRAM BEE3 0 CODE 0 idataCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__npowers_ FC66 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab8p1.X.debug.obj
+___ftmul@f1 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftmul@f2 18 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftneg@f1 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___wmul@multiplicand 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawRect@color 1B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+printf@flag 5A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+printf@fval 5E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+printf@prec 61 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_ADCON0 FC2 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_ADCON1 FC1 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_ADCON2 FC0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_ADRESH FC4 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_ADRESL FC3 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_scale$2385 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___awdiv@dividend 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\Dara\AppData\Local\Temp\sai8.obj
+printf@width 5C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\Dara\AppData\Local\Temp\sai8.obj
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of___awtoft 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_CCPR2L FBB 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Lab8p1.X.debug.obj
+__end_of___ftge CAAA 0 CODE 0 text38 dist/default/debug\Lab8p1.X.debug.obj
+__end_of___wmul C07A 0 CODE 0 text64 dist/default/debug\Lab8p1.X.debug.obj
+_Day_Mode CBFA 0 CODE 0 text18 dist/default/debug\Lab8p1.X.debug.obj
+_Set_EWLT C28A 0 CODE 0 text46 dist/default/debug\Lab8p1.X.debug.obj
+_Set_NSLT C312 0 CODE 0 text44 dist/default/debug\Lab8p1.X.debug.obj
+?__tdiv_to_l_ 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Lab8p1.X.debug.obj
+___ftsub@f1 3A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftsub@f2 3D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillRect@color 16 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+WAIT_N_SEC@i 6A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+get_full_ADC@result 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___fttol@f1 2B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawCircle@x0 C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawCircle@y0 E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Hmediumconst FD30 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab8p1.X.debug.obj
+?_printf 40 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_update_LCD_color E2CA 0 CODE 0 text48 dist/default/debug\Lab8p1.X.debug.obj
+_update_LCD_count D98C 0 CODE 0 text20 dist/default/debug\Lab8p1.X.debug.obj
+_TFT_GreenTab_Initialize C0A4 0 CODE 0 text10 dist/default/debug\Lab8p1.X.debug.obj
+__Hintcodelo 0 0 CODE 0 intcodelo dist/default/debug\Lab8p1.X.debug.obj
+__size_of_drawCircle 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+___awdiv@divisor 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_PED_NS_Count 9A 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+Set_NSLT@color 36 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of___ftpack 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__end_of___awdiv CA14 0 CODE 0 text66 dist/default/debug\Lab8p1.X.debug.obj
+__end_of___awmod C760 0 CODE 0 text65 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Day_Mode CCBA 0 CODE 0 text18 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Set_EWLT C2CE 0 CODE 0 text46 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Set_NSLT C356 0 CODE 0 text44 dist/default/debug\Lab8p1.X.debug.obj
+__end_of___ftadd DEA8 0 CODE 0 text36 dist/default/debug\Lab8p1.X.debug.obj
+__end_of___ftdiv D01C 0 CODE 0 text40 dist/default/debug\Lab8p1.X.debug.obj
+__end_of___ftmul D3D4 0 CODE 0 text28 dist/default/debug\Lab8p1.X.debug.obj
+__end_of___ftneg C02C 0 CODE 0 text37 dist/default/debug\Lab8p1.X.debug.obj
+__end_of___ftsub C39A 0 CODE 0 text35 dist/default/debug\Lab8p1.X.debug.obj
+__end_of___fttol D102 0 CODE 0 text34 dist/default/debug\Lab8p1.X.debug.obj
+__end_of___lldiv C97E 0 CODE 0 text33 dist/default/debug\Lab8p1.X.debug.obj
+__end_of___llmod C66E 0 CODE 0 text32 dist/default/debug\Lab8p1.X.debug.obj
+__size_of_isdigit 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__end_of_TFT_GreenTab_Initialize C0CE 0 CODE 0 text10 dist/default/debug\Lab8p1.X.debug.obj
+fillRectangle@hi 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillRectangle@lo 12 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+?_strlen 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Night_Mode 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_drawFastHLine C86A 0 CODE 0 text9 dist/default/debug\Lab8p1.X.debug.obj
+_dpowers FC3E 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab8p1.X.debug.obj
+__size_of_fillRectangle 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_drawFastVLine C7E2 0 CODE 0 text58 dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Rcmd1 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Rcmd3 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of__tdiv_to_l_ 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__end_of_fround E2CA 0 CODE 0 text27 dist/default/debug\Lab8p1.X.debug.obj
+drawFastVLine@hi 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawFastVLine@lo 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_putch 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_scale 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of___lltoft 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+___lldiv@counter D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Lintcodelo 0 0 CODE 0 intcodelo dist/default/debug\Lab8p1.X.debug.obj
+__size_of_WAIT_1_SEC 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+update_LCD_color@color 33 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+start_initialization C536 0 CODE 0 cinit dist/default/debug\Lab8p1.X.debug.obj
+_Act_Mode_Txt 9D 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+__size_of_WAIT_N_SEC 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_OSCCON FD3 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Lab8p1.X.debug.obj
+drawChar@line 25 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawChar@size 24 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___awtoft C18E 0 CODE 0 text41 dist/default/debug\Lab8p1.X.debug.obj
+_TRISCbits F94 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+___lldiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_write_data 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+Set_EW@color 36 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_direction 79 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Initialize_Screen 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+drawFastHLine@w 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawFastHLine@x 12 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawFastHLine@y 8 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___rparam_used 1 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+fround@prec 2D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_setAddrWindow C3E4 0 CODE 0 text60 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_fillRectangle CE5C 0 CODE 0 text7 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_OpenUSART C6DE 0 CODE 0 text2 dist/default/debug\Lab8p1.X.debug.obj
+__end_of___awtoft C1CA 0 CODE 0 text41 dist/default/debug\Lab8p1.X.debug.obj
+_SPBRGH FB0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_fillCircleHelper D6FE 0 CODE 0 text50 dist/default/debug\Lab8p1.X.debug.obj
+_SSPBUF FC9 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+___fttol@exp1 39 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___fttol@lval 35 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_Set_EW C246 0 CODE 0 text47 dist/default/debug\Lab8p1.X.debug.obj
+_Set_NS C2CE 0 CODE 0 text45 dist/default/debug\Lab8p1.X.debug.obj
+_SW_NSPED_Txt A7 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+_EWLT_Count 8B 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+__size_of_OpenUSART 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+WAIT_N_SEC@seconds 69 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawFastHLine@hi 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawFastHLine@lo 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___lltoft@c 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftpack CCBA 0 CODE 0 text42 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_printf FA62 0 CODE 0 text23 dist/default/debug\Lab8p1.X.debug.obj
+__tdiv_to_l_@f1 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__tdiv_to_l_@f2 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Deactivate_Buzzer BEF0 0 CODE 0 text69 dist/default/debug\Lab8p1.X.debug.obj
+___ftpack@arg 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftpack@exp 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of___ftpack CD80 0 CODE 0 text42 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_LCD_Reset BF5C 0 CODE 0 text14 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank6 0 0 ABS 0 bank6 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank7 0 0 ABS 0 bank7 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank8 0 0 ABS 0 bank8 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank9 0 0 ABS 0 bank9 dist/default/debug\Lab8p1.X.debug.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/debug\Lab8p1.X.debug.obj
+__Hconst 0 0 CODE 0 const dist/default/debug\Lab8p1.X.debug.obj
+__end_of_strcpy C18E 0 CODE 0 text43 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_strlen C208 0 CODE 0 text55 dist/default/debug\Lab8p1.X.debug.obj
+__Hidata 0 0 CODE 0 idata dist/default/debug\Lab8p1.X.debug.obj
+__Hidloc 200008 0 IDLOC 0 idloc dist/default/debug\Lab8p1.X.debug.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Lab8p1.X.debug.obj
+__Hparam 0 0 COMRAM 1 rparam dist/default/debug\Lab8p1.X.debug.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/debug\Lab8p1.X.debug.obj
+__Hstack 0 0 STACK 2 stack dist/default/debug\Lab8p1.X.debug.obj
+__Htext0 0 0 ABS 0 text0 dist/default/debug\Lab8p1.X.debug.obj
+__Htext1 0 0 ABS 0 text1 dist/default/debug\Lab8p1.X.debug.obj
+__Htext2 0 0 ABS 0 text2 dist/default/debug\Lab8p1.X.debug.obj
+__Htext3 0 0 ABS 0 text3 dist/default/debug\Lab8p1.X.debug.obj
+__Htext4 0 0 ABS 0 text4 dist/default/debug\Lab8p1.X.debug.obj
+__Htext5 0 0 ABS 0 text5 dist/default/debug\Lab8p1.X.debug.obj
+__Htext6 0 0 ABS 0 text6 dist/default/debug\Lab8p1.X.debug.obj
+__Htext7 0 0 ABS 0 text7 dist/default/debug\Lab8p1.X.debug.obj
+__Htext8 0 0 ABS 0 text8 dist/default/debug\Lab8p1.X.debug.obj
+__Htext9 0 0 ABS 0 text9 dist/default/debug\Lab8p1.X.debug.obj
+__size_of_LCD_Reset 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_OpenUSART C66E 0 CODE 0 text2 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank10 0 0 ABS 0 bank10 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank11 0 0 ABS 0 bank11 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank12 0 0 ABS 0 bank12 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank13 0 0 ABS 0 bank13 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank14 0 0 ABS 0 bank14 dist/default/debug\Lab8p1.X.debug.obj
+__Hbank15 0 0 ABS 0 bank15 dist/default/debug\Lab8p1.X.debug.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Lab8p1.X.debug.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/debug\Lab8p1.X.debug.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Dara\AppData\Local\Temp\sai8.obj
+__end_of_update_LCD_color E62C 0 CODE 0 text48 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_update_LCD_count DB36 0 CODE 0 text20 dist/default/debug\Lab8p1.X.debug.obj
+_update_LCD_PED_Count D102 0 CODE 0 text53 dist/default/debug\Lab8p1.X.debug.obj
+fillCircleHelper@f 25 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillCircleHelper@r 17 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillCircleHelper@x 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillCircleHelper@y 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___lltoft C4D6 0 CODE 0 text31 dist/default/debug\Lab8p1.X.debug.obj
+__Hcomram 0 0 ABS 0 comram dist/default/debug\Lab8p1.X.debug.obj
+__Hconfig 30000E 0 CONFIG 0 config dist/default/debug\Lab8p1.X.debug.obj
+__end_of_update_LCD_misc E086 0 CODE 0 text22 dist/default/debug\Lab8p1.X.debug.obj
+PED_Control@i 3E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank6 0 0 ABS 0 bank6 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank7 0 0 ABS 0 bank7 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank8 0 0 ABS 0 bank8 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank9 0 0 ABS 0 bank9 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_isdigit C008 0 CODE 0 text26 dist/default/debug\Lab8p1.X.debug.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/debug\Lab8p1.X.debug.obj
+__Lconst 0 0 CODE 0 const dist/default/debug\Lab8p1.X.debug.obj
+Set_NS@color 36 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Lidata 0 0 CODE 0 idata dist/default/debug\Lab8p1.X.debug.obj
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/debug\Lab8p1.X.debug.obj
+__size_of_update_LCD_color 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_update_LCD_count 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+___ftadd@exp1 39 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftadd@exp2 38 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftadd@sign 37 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Lab8p1.X.debug.obj
+__Lparam 0 0 COMRAM 1 rparam dist/default/debug\Lab8p1.X.debug.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/debug\Lab8p1.X.debug.obj
+__Lstack 0 0 STACK 2 stack dist/default/debug\Lab8p1.X.debug.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/debug\Lab8p1.X.debug.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/debug\Lab8p1.X.debug.obj
+__end_of___lltoft C536 0 CODE 0 text31 dist/default/debug\Lab8p1.X.debug.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Lab8p1.X.debug.obj
+update_LCD_color@direction 34 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_PORTAbits F80 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_PORTBbits F81 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_PORTCbits F82 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_LCD_Reset BF4A 0 CODE 0 text14 dist/default/debug\Lab8p1.X.debug.obj
+_PORTDbits F83 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_PORTEbits F84 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_INTCONbits FF2 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__CFG_OSC$INTIO67 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/debug\Lab8p1.X.debug.obj
+__Hdata 0 0 ABS 0 data dist/default/debug\Lab8p1.X.debug.obj
+__Hinit 0 0 CODE 0 init dist/default/debug\Lab8p1.X.debug.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/debug\Lab8p1.X.debug.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/debug\Lab8p1.X.debug.obj
+__Htemp 0 0 COMRAM 1 temp dist/default/debug\Lab8p1.X.debug.obj
+__Htext 0 0 ABS 0 text dist/default/debug\Lab8p1.X.debug.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/debug\Lab8p1.X.debug.obj
+__Ldata 0 0 ABS 0 data dist/default/debug\Lab8p1.X.debug.obj
+__Linit 0 0 CODE 0 init dist/default/debug\Lab8p1.X.debug.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/debug\Lab8p1.X.debug.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/debug\Lab8p1.X.debug.obj
+__Ltemp 0 0 COMRAM 1 temp dist/default/debug\Lab8p1.X.debug.obj
+__Ltext 0 0 ABS 0 text dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Set_EW 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Set_NS 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+___ftge CA14 0 CODE 0 text38 dist/default/debug\Lab8p1.X.debug.obj
+___wmul C052 0 CODE 0 text64 dist/default/debug\Lab8p1.X.debug.obj
+Select_ADC_Channel@channel 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_drawFastHLine 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__end_of_PED_Control C15C 0 CODE 0 text52 dist/default/debug\Lab8p1.X.debug.obj
+__size_of_drawFastVLine 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Hintret 0 0 ABS 0 intret dist/default/debug\Lab8p1.X.debug.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Init_ADC 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_PR2 FCB 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__S0 30000E 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__S1 CF 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__S2 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_dir 78 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_nbr AE 0 BANK0 1 bssBANK0 dist/default/debug\Lab8p1.X.debug.obj
+_txt 6D 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_buffer B0 0 BANK0 1 bssBANK0 dist/default/debug\Lab8p1.X.debug.obj
+__size_of_Rcmd2red 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+fillRect@h 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillRect@i 1C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillRect@w 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillRect@x 1B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillRect@y 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___awtoft@c 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Lab8p1.X.debug.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Lab8p1.X.debug.obj
+__size_of_drawChar 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_drawRect 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_drawtext 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__end_of_fillCircleHelper D836 0 CODE 0 text50 dist/default/debug\Lab8p1.X.debug.obj
+strcpy@cp 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+strcpy@to 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawFastHLine@color A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_fround E086 0 CODE 0 text27 dist/default/debug\Lab8p1.X.debug.obj
+__size_of_setAddrWindow 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+delay_ms@ms 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_update_LCD_misc DEA8 0 CODE 0 text22 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_drawFastHLine C8F2 0 CODE 0 text9 dist/default/debug\Lab8p1.X.debug.obj
+drawFastVLine@h 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawFastVLine@x 12 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawFastVLine@y 8 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_WAIT_1_SEC_W_BEEP 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/debug\Lab8p1.X.debug.obj
+___lldiv@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_drawFastVLine C86A 0 CODE 0 text58 dist/default/debug\Lab8p1.X.debug.obj
+__size_of_fillCircleHelper 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__Hramtop 1000 0 RAM 0 ramtop dist/default/debug\Lab8p1.X.debug.obj
+strlen@s 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillCircleHelper@color 1D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillCircleHelper@ddF_x 21 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillCircleHelper@ddF_y 23 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillCircleHelper@delta 1B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_Deactivate_Buzzer BEE8 0 CODE 0 text69 dist/default/debug\Lab8p1.X.debug.obj
+__Hrparam 0 0 COMRAM 1 rparam dist/default/debug\Lab8p1.X.debug.obj
+__powers_ FC8D 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Initialize_Screen F12A 0 CODE 0 text5 dist/default/debug\Lab8p1.X.debug.obj
+__pdataBANK0 80 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+__activetblptr 2 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+drawCircle@color 12 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawCircle@ddF_x 16 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawCircle@ddF_y 18 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/debug\Lab8p1.X.debug.obj
+__size_of___ftge 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_get_full_ADC C02C 0 CODE 0 text39 dist/default/debug\Lab8p1.X.debug.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\Lab8p1.X.debug.obj
+__Htext10 0 0 ABS 0 text10 dist/default/debug\Lab8p1.X.debug.obj
+__Htext11 0 0 ABS 0 text11 dist/default/debug\Lab8p1.X.debug.obj
+__Htext12 0 0 ABS 0 text12 dist/default/debug\Lab8p1.X.debug.obj
+__Htext13 0 0 ABS 0 text13 dist/default/debug\Lab8p1.X.debug.obj
+__Htext14 0 0 ABS 0 text14 dist/default/debug\Lab8p1.X.debug.obj
+__Htext15 0 0 ABS 0 text15 dist/default/debug\Lab8p1.X.debug.obj
+__Htext16 0 0 ABS 0 text16 dist/default/debug\Lab8p1.X.debug.obj
+__Htext17 0 0 ABS 0 text17 dist/default/debug\Lab8p1.X.debug.obj
+__Htext18 0 0 ABS 0 text18 dist/default/debug\Lab8p1.X.debug.obj
+__Htext19 0 0 ABS 0 text19 dist/default/debug\Lab8p1.X.debug.obj
+__Htext20 0 0 ABS 0 text20 dist/default/debug\Lab8p1.X.debug.obj
+__Htext21 0 0 ABS 0 text21 dist/default/debug\Lab8p1.X.debug.obj
+__Htext22 0 0 ABS 0 text22 dist/default/debug\Lab8p1.X.debug.obj
+__Htext23 0 0 ABS 0 text23 dist/default/debug\Lab8p1.X.debug.obj
+__Htext24 0 0 ABS 0 text24 dist/default/debug\Lab8p1.X.debug.obj
+__Htext25 0 0 ABS 0 text25 dist/default/debug\Lab8p1.X.debug.obj
+__Htext26 0 0 ABS 0 text26 dist/default/debug\Lab8p1.X.debug.obj
+__Htext27 0 0 ABS 0 text27 dist/default/debug\Lab8p1.X.debug.obj
+__Htext28 0 0 ABS 0 text28 dist/default/debug\Lab8p1.X.debug.obj
+__Htext29 0 0 ABS 0 text29 dist/default/debug\Lab8p1.X.debug.obj
+__Htext30 0 0 ABS 0 text30 dist/default/debug\Lab8p1.X.debug.obj
+__Htext31 0 0 ABS 0 text31 dist/default/debug\Lab8p1.X.debug.obj
+__Htext32 0 0 ABS 0 text32 dist/default/debug\Lab8p1.X.debug.obj
+__Htext33 0 0 ABS 0 text33 dist/default/debug\Lab8p1.X.debug.obj
+__Htext34 0 0 ABS 0 text34 dist/default/debug\Lab8p1.X.debug.obj
+__Htext35 0 0 ABS 0 text35 dist/default/debug\Lab8p1.X.debug.obj
+__Htext36 0 0 ABS 0 text36 dist/default/debug\Lab8p1.X.debug.obj
+__Htext37 0 0 ABS 0 text37 dist/default/debug\Lab8p1.X.debug.obj
+__Htext38 0 0 ABS 0 text38 dist/default/debug\Lab8p1.X.debug.obj
+__Htext39 0 0 ABS 0 text39 dist/default/debug\Lab8p1.X.debug.obj
+__Htext40 0 0 ABS 0 text40 dist/default/debug\Lab8p1.X.debug.obj
+__Htext41 0 0 ABS 0 text41 dist/default/debug\Lab8p1.X.debug.obj
+__Htext42 0 0 ABS 0 text42 dist/default/debug\Lab8p1.X.debug.obj
+__Htext43 0 0 ABS 0 text43 dist/default/debug\Lab8p1.X.debug.obj
+__Htext44 0 0 ABS 0 text44 dist/default/debug\Lab8p1.X.debug.obj
+__Htext45 0 0 ABS 0 text45 dist/default/debug\Lab8p1.X.debug.obj
+__Htext46 0 0 ABS 0 text46 dist/default/debug\Lab8p1.X.debug.obj
+__Htext47 0 0 ABS 0 text47 dist/default/debug\Lab8p1.X.debug.obj
+__Htext48 0 0 ABS 0 text48 dist/default/debug\Lab8p1.X.debug.obj
+__Htext49 0 0 ABS 0 text49 dist/default/debug\Lab8p1.X.debug.obj
+__Htext50 0 0 ABS 0 text50 dist/default/debug\Lab8p1.X.debug.obj
+__Htext51 0 0 ABS 0 text51 dist/default/debug\Lab8p1.X.debug.obj
+__Htext52 0 0 ABS 0 text52 dist/default/debug\Lab8p1.X.debug.obj
+__Htext53 0 0 ABS 0 text53 dist/default/debug\Lab8p1.X.debug.obj
+__Htext54 0 0 ABS 0 text54 dist/default/debug\Lab8p1.X.debug.obj
+__Htext55 0 0 ABS 0 text55 dist/default/debug\Lab8p1.X.debug.obj
+__Htext56 0 0 ABS 0 text56 dist/default/debug\Lab8p1.X.debug.obj
+__Htext57 0 0 ABS 0 text57 dist/default/debug\Lab8p1.X.debug.obj
+__Htext58 0 0 ABS 0 text58 dist/default/debug\Lab8p1.X.debug.obj
+__Htext59 0 0 ABS 0 text59 dist/default/debug\Lab8p1.X.debug.obj
+__Htext60 0 0 ABS 0 text60 dist/default/debug\Lab8p1.X.debug.obj
+__Htext61 0 0 ABS 0 text61 dist/default/debug\Lab8p1.X.debug.obj
+__Htext62 0 0 ABS 0 text62 dist/default/debug\Lab8p1.X.debug.obj
+__Htext63 0 0 ABS 0 text63 dist/default/debug\Lab8p1.X.debug.obj
+__Htext64 0 0 ABS 0 text64 dist/default/debug\Lab8p1.X.debug.obj
+__Htext65 0 0 ABS 0 text65 dist/default/debug\Lab8p1.X.debug.obj
+__Htext66 0 0 ABS 0 text66 dist/default/debug\Lab8p1.X.debug.obj
+__Htext67 0 0 ABS 0 text67 dist/default/debug\Lab8p1.X.debug.obj
+__Htext68 0 0 ABS 0 text68 dist/default/debug\Lab8p1.X.debug.obj
+__Htext69 0 0 ABS 0 text69 dist/default/debug\Lab8p1.X.debug.obj
+__Htext70 0 0 ABS 0 text70 dist/default/debug\Lab8p1.X.debug.obj
+_fillCircle C432 0 CODE 0 text49 dist/default/debug\Lab8p1.X.debug.obj
+?___awtoft 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___awmod@counter 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_RCSTAbits FAB 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_PIE1bits F9D 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__end_of__powers_ FCB4 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab8p1.X.debug.obj
+__tdiv_to_l_@cntr E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__tdiv_to_l_@exp1 F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__tdiv_to_l_@quot A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawChar@c 1F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawChar@i 28 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawChar@j 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawChar@x 26 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawChar@y 1E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_init_UART BF84 0 CODE 0 text1 dist/default/debug\Lab8p1.X.debug.obj
+drawtext@bg 2E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_Init_ADC BF0A 0 CODE 0 text17 dist/default/debug\Lab8p1.X.debug.obj
+__ptext10 C0A4 0 CODE 0 text10 dist/default/debug\Lab8p1.X.debug.obj
+__ptext11 D1EA 0 CODE 0 text11 dist/default/debug\Lab8p1.X.debug.obj
+__ptext12 C208 0 CODE 0 text12 dist/default/debug\Lab8p1.X.debug.obj
+__ptext13 D5EE 0 CODE 0 text13 dist/default/debug\Lab8p1.X.debug.obj
+__ptext14 BF4A 0 CODE 0 text14 dist/default/debug\Lab8p1.X.debug.obj
+__ptext15 C484 0 CODE 0 text15 dist/default/debug\Lab8p1.X.debug.obj
+__ptext16 BF9A 0 CODE 0 text16 dist/default/debug\Lab8p1.X.debug.obj
+__ptext17 BF0A 0 CODE 0 text17 dist/default/debug\Lab8p1.X.debug.obj
+__ptext18 CBFA 0 CODE 0 text18 dist/default/debug\Lab8p1.X.debug.obj
+__ptext19 C0CE 0 CODE 0 text19 dist/default/debug\Lab8p1.X.debug.obj
+__ptext20 D98C 0 CODE 0 text20 dist/default/debug\Lab8p1.X.debug.obj
+__ptext21 C760 0 CODE 0 text21 dist/default/debug\Lab8p1.X.debug.obj
+__ptext22 DEA8 0 CODE 0 text22 dist/default/debug\Lab8p1.X.debug.obj
+__ptext23 F12A 0 CODE 0 text23 dist/default/debug\Lab8p1.X.debug.obj
+__ptext24 E62C 0 CODE 0 text24 dist/default/debug\Lab8p1.X.debug.obj
+__ptext25 BEFC 0 CODE 0 text25 dist/default/debug\Lab8p1.X.debug.obj
+__ptext26 BFE6 0 CODE 0 text26 dist/default/debug\Lab8p1.X.debug.obj
+__ptext27 E086 0 CODE 0 text27 dist/default/debug\Lab8p1.X.debug.obj
+__ptext28 D2DC 0 CODE 0 text28 dist/default/debug\Lab8p1.X.debug.obj
+__ptext29 D4DE 0 CODE 0 text29 dist/default/debug\Lab8p1.X.debug.obj
+__ptext30 D3D4 0 CODE 0 text30 dist/default/debug\Lab8p1.X.debug.obj
+__ptext31 C4D6 0 CODE 0 text31 dist/default/debug\Lab8p1.X.debug.obj
+__ptext32 C5FE 0 CODE 0 text32 dist/default/debug\Lab8p1.X.debug.obj
+__ptext33 C8F2 0 CODE 0 text33 dist/default/debug\Lab8p1.X.debug.obj
+__ptext34 D01C 0 CODE 0 text34 dist/default/debug\Lab8p1.X.debug.obj
+__ptext35 C356 0 CODE 0 text35 dist/default/debug\Lab8p1.X.debug.obj
+__ptext36 DCE4 0 CODE 0 text36 dist/default/debug\Lab8p1.X.debug.obj
+__ptext37 C008 0 CODE 0 text37 dist/default/debug\Lab8p1.X.debug.obj
+__ptext38 CA14 0 CODE 0 text38 dist/default/debug\Lab8p1.X.debug.obj
+__ptext39 C02C 0 CODE 0 text39 dist/default/debug\Lab8p1.X.debug.obj
+__ptext40 CF3A 0 CODE 0 text40 dist/default/debug\Lab8p1.X.debug.obj
+__ptext41 C18E 0 CODE 0 text41 dist/default/debug\Lab8p1.X.debug.obj
+__ptext42 CCBA 0 CODE 0 text42 dist/default/debug\Lab8p1.X.debug.obj
+__ptext43 C15C 0 CODE 0 text43 dist/default/debug\Lab8p1.X.debug.obj
+__ptext44 C312 0 CODE 0 text44 dist/default/debug\Lab8p1.X.debug.obj
+__ptext45 C2CE 0 CODE 0 text45 dist/default/debug\Lab8p1.X.debug.obj
+__ptext46 C28A 0 CODE 0 text46 dist/default/debug\Lab8p1.X.debug.obj
+__ptext47 C246 0 CODE 0 text47 dist/default/debug\Lab8p1.X.debug.obj
+__ptext48 E2CA 0 CODE 0 text48 dist/default/debug\Lab8p1.X.debug.obj
+__ptext49 C432 0 CODE 0 text49 dist/default/debug\Lab8p1.X.debug.obj
+__ptext50 D6FE 0 CODE 0 text50 dist/default/debug\Lab8p1.X.debug.obj
+__ptext51 DB36 0 CODE 0 text51 dist/default/debug\Lab8p1.X.debug.obj
+__ptext52 C12C 0 CODE 0 text52 dist/default/debug\Lab8p1.X.debug.obj
+__ptext53 D102 0 CODE 0 text53 dist/default/debug\Lab8p1.X.debug.obj
+__ptext54 CE5C 0 CODE 0 text54 dist/default/debug\Lab8p1.X.debug.obj
+__ptext55 C1CA 0 CODE 0 text55 dist/default/debug\Lab8p1.X.debug.obj
+__ptext56 D836 0 CODE 0 text56 dist/default/debug\Lab8p1.X.debug.obj
+__ptext57 C39A 0 CODE 0 text57 dist/default/debug\Lab8p1.X.debug.obj
+__ptext58 C7E2 0 CODE 0 text58 dist/default/debug\Lab8p1.X.debug.obj
+__ptext59 C0FC 0 CODE 0 text59 dist/default/debug\Lab8p1.X.debug.obj
+__ptext60 C3E4 0 CODE 0 text60 dist/default/debug\Lab8p1.X.debug.obj
+__ptext61 BF28 0 CODE 0 text61 dist/default/debug\Lab8p1.X.debug.obj
+__ptext62 BF18 0 CODE 0 text62 dist/default/debug\Lab8p1.X.debug.obj
+__ptext63 BF5C 0 CODE 0 text63 dist/default/debug\Lab8p1.X.debug.obj
+__ptext64 C052 0 CODE 0 text64 dist/default/debug\Lab8p1.X.debug.obj
+__ptext65 C6DE 0 CODE 0 text65 dist/default/debug\Lab8p1.X.debug.obj
+__ptext66 C97E 0 CODE 0 text66 dist/default/debug\Lab8p1.X.debug.obj
+__ptext67 BF84 0 CODE 0 text67 dist/default/debug\Lab8p1.X.debug.obj
+__ptext68 BFB0 0 CODE 0 text68 dist/default/debug\Lab8p1.X.debug.obj
+__ptext69 BEE8 0 CODE 0 text69 dist/default/debug\Lab8p1.X.debug.obj
+__ptext70 BF38 0 CODE 0 text70 dist/default/debug\Lab8p1.X.debug.obj
+delay_ms@count 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_init_UART 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+___awdiv C97E 0 CODE 0 text66 dist/default/debug\Lab8p1.X.debug.obj
+___awmod C6DE 0 CODE 0 text65 dist/default/debug\Lab8p1.X.debug.obj
+___ftadd DCE4 0 CODE 0 text36 dist/default/debug\Lab8p1.X.debug.obj
+___ftdiv CF3A 0 CODE 0 text40 dist/default/debug\Lab8p1.X.debug.obj
+___ftmul D2DC 0 CODE 0 text28 dist/default/debug\Lab8p1.X.debug.obj
+___ftneg C008 0 CODE 0 text37 dist/default/debug\Lab8p1.X.debug.obj
+___ftsub C356 0 CODE 0 text35 dist/default/debug\Lab8p1.X.debug.obj
+___fttol D01C 0 CODE 0 text34 dist/default/debug\Lab8p1.X.debug.obj
+__tdiv_to_l_ D4DE 0 CODE 0 text29 dist/default/debug\Lab8p1.X.debug.obj
+___lldiv C8F2 0 CODE 0 text33 dist/default/debug\Lab8p1.X.debug.obj
+___llmod C5FE 0 CODE 0 text32 dist/default/debug\Lab8p1.X.debug.obj
+strlen@cp 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Lbank10 0 0 ABS 0 bank10 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank11 0 0 ABS 0 bank11 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank12 0 0 ABS 0 bank12 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank13 0 0 ABS 0 bank13 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank14 0 0 ABS 0 bank14 dist/default/debug\Lab8p1.X.debug.obj
+__Lbank15 0 0 ABS 0 bank15 dist/default/debug\Lab8p1.X.debug.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Lab8p1.X.debug.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/debug\Lab8p1.X.debug.obj
+__end_of_setAddrWindow C432 0 CODE 0 text60 dist/default/debug\Lab8p1.X.debug.obj
+__Lcomram 0 0 ABS 0 comram dist/default/debug\Lab8p1.X.debug.obj
+__Lconfig 300000 0 CONFIG 0 config dist/default/debug\Lab8p1.X.debug.obj
+?___ftpack 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_printf F12A 0 CODE 0 text23 dist/default/debug\Lab8p1.X.debug.obj
+printf@tmpval 54 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Init_ADC BF18 0 CODE 0 text17 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_drawPixel C12C 0 CODE 0 text59 dist/default/debug\Lab8p1.X.debug.obj
+_Rcmd2red C208 0 CODE 0 text12 dist/default/debug\Lab8p1.X.debug.obj
+___wmul@multiplier F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_fround 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_drawPixel 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+update_LCD_color@Circle_Y 35 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/debug\Lab8p1.X.debug.obj
+_drawChar D836 0 CODE 0 text56 dist/default/debug\Lab8p1.X.debug.obj
+_drawRect C598 0 CODE 0 text8 dist/default/debug\Lab8p1.X.debug.obj
+_drawtext CE5C 0 CODE 0 text54 dist/default/debug\Lab8p1.X.debug.obj
+_init_UART BF70 0 CODE 0 text1 dist/default/debug\Lab8p1.X.debug.obj
+main@nStep 6B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_strcpy C15C 0 CODE 0 text43 dist/default/debug\Lab8p1.X.debug.obj
+_strlen C1CA 0 CODE 0 text55 dist/default/debug\Lab8p1.X.debug.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Rcmd2red C246 0 CODE 0 text12 dist/default/debug\Lab8p1.X.debug.obj
+__size_of_get_full_ADC 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+stackhi EEE 0 ABS 0 - C:\Users\Dara\AppData\Local\Temp\sai8.obj
+stacklo CF 0 ABS 0 - C:\Users\Dara\AppData\Local\Temp\sai8.obj
+__Lintcode 0 0 CODE 0 intcode dist/default/debug\Lab8p1.X.debug.obj
+?___lltoft 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_drawChar D98C 0 CODE 0 text56 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_drawRect C5FE 0 CODE 0 text8 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_drawtext CF3A 0 CODE 0 text54 dist/default/debug\Lab8p1.X.debug.obj
+__Lintret 0 0 ABS 0 intret dist/default/debug\Lab8p1.X.debug.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/debug\Lab8p1.X.debug.obj
+_ADCON0bits FC2 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_NSLT_Count 91 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__div_to_l_ D3D4 0 CODE 0 text30 dist/default/debug\Lab8p1.X.debug.obj
+_drawPixel C0FC 0 CODE 0 text59 dist/default/debug\Lab8p1.X.debug.obj
+fillCircle@x0 2B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillCircle@y0 2D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+strcpy@from 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_write_command BF18 0 CODE 0 text62 dist/default/debug\Lab8p1.X.debug.obj
+__Lspace_0 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__Lspace_1 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__Lspace_2 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Select_ADC_Channel BEFC 0 CODE 0 text3 dist/default/debug\Lab8p1.X.debug.obj
+fillRectangle@h A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillRectangle@w 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillRectangle@x 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillRectangle@y 8 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftmul@cntr 22 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__pbssCOMRAM 6D 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftmul@sign 23 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_PIR1bits F9E 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_PIR2bits FA1 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__Lend_init 0 0 CODE 0 end_init dist/default/debug\Lab8p1.X.debug.obj
+__end_of_fillCircle C484 0 CODE 0 text49 dist/default/debug\Lab8p1.X.debug.obj
+__size_of_delay_ms 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+printf@ap 4E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_WAIT_HALF_SEC BFB0 0 CODE 0 text68 dist/default/debug\Lab8p1.X.debug.obj
+_fillScreen BFCA 0 CODE 0 text6 dist/default/debug\Lab8p1.X.debug.obj
+__div_to_l_@f1 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__div_to_l_@f2 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+end_of_initialization C58E 0 CODE 0 cinit dist/default/debug\Lab8p1.X.debug.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Lab8p1.X.debug.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/debug\Lab8p1.X.debug.obj
+__size_of_printf 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_TFT_GreenTab_Initialize 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__end_of_get_full_ADC C052 0 CODE 0 text39 dist/default/debug\Lab8p1.X.debug.obj
+drawRect@h 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawRect@w 17 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawRect@x 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawRect@y 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_update_LCD_misc 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+spiwrite@x 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+write_data@data_ 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___awdiv@quotient D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+?___awdiv 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+?___awmod 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__tft_type 76 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+?___ftadd 2E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+?___ftdiv 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+?___ftmul 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+?___ftneg 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+?___ftsub 3A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+?___fttol 2B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+?___lldiv 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+?___llmod 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_PED_Control 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__Hreset_vec 0 0 CODE 0 reset_vec dist/default/debug\Lab8p1.X.debug.obj
+_Initialize_Screen EA0C 0 CODE 0 text5 dist/default/debug\Lab8p1.X.debug.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\Lab8p1.X.debug.obj
+fillRectangle@color B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___awmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Lramtop 1000 0 RAM 0 ramtop dist/default/debug\Lab8p1.X.debug.obj
+__size_of_strcpy 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__size_of_strlen 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Activate_Buzzer BF4A 0 CODE 0 text70 dist/default/debug\Lab8p1.X.debug.obj
+__Lrparam 0 0 COMRAM 1 rparam dist/default/debug\Lab8p1.X.debug.obj
+__pcinit C536 0 CODE 0 cinit dist/default/debug\Lab8p1.X.debug.obj
+__size_of_fillRect 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_printf$2386 4B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___lltoft@exp 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__ptext0 CAAA 0 CODE 0 text0 dist/default/debug\Lab8p1.X.debug.obj
+__ptext1 BF70 0 CODE 0 text1 dist/default/debug\Lab8p1.X.debug.obj
+__ptext2 C66E 0 CODE 0 text2 dist/default/debug\Lab8p1.X.debug.obj
+__ptext3 BEF0 0 CODE 0 text3 dist/default/debug\Lab8p1.X.debug.obj
+__ptext4 CB4C 0 CODE 0 text4 dist/default/debug\Lab8p1.X.debug.obj
+__ptext5 EA0C 0 CODE 0 text5 dist/default/debug\Lab8p1.X.debug.obj
+__ptext6 BFCA 0 CODE 0 text6 dist/default/debug\Lab8p1.X.debug.obj
+__ptext7 CD80 0 CODE 0 text7 dist/default/debug\Lab8p1.X.debug.obj
+__ptext8 C598 0 CODE 0 text8 dist/default/debug\Lab8p1.X.debug.obj
+__ptext9 C86A 0 CODE 0 text9 dist/default/debug\Lab8p1.X.debug.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/debug\Lab8p1.X.debug.obj
+?_get_full_ADC 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_WAIT_1_SEC_W_BEEP BF9A 0 CODE 0 text67 dist/default/debug\Lab8p1.X.debug.obj
+PED_Control@Num_Sec 3D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext13 0 0 ABS 0 text13 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext18 0 0 ABS 0 text18 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext19 0 0 ABS 0 text19 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext20 0 0 ABS 0 text20 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext21 0 0 ABS 0 text21 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext22 0 0 ABS 0 text22 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext23 0 0 ABS 0 text23 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext24 0 0 ABS 0 text24 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext25 0 0 ABS 0 text25 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext26 0 0 ABS 0 text26 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext27 0 0 ABS 0 text27 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext28 0 0 ABS 0 text28 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext29 0 0 ABS 0 text29 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext30 0 0 ABS 0 text30 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext31 0 0 ABS 0 text31 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext32 0 0 ABS 0 text32 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext33 0 0 ABS 0 text33 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext34 0 0 ABS 0 text34 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext35 0 0 ABS 0 text35 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext36 0 0 ABS 0 text36 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext37 0 0 ABS 0 text37 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext38 0 0 ABS 0 text38 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext39 0 0 ABS 0 text39 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext40 0 0 ABS 0 text40 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext41 0 0 ABS 0 text41 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext42 0 0 ABS 0 text42 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext43 0 0 ABS 0 text43 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext44 0 0 ABS 0 text44 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext45 0 0 ABS 0 text45 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext46 0 0 ABS 0 text46 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext47 0 0 ABS 0 text47 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext48 0 0 ABS 0 text48 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext49 0 0 ABS 0 text49 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext50 0 0 ABS 0 text50 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext51 0 0 ABS 0 text51 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext52 0 0 ABS 0 text52 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext53 0 0 ABS 0 text53 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext54 0 0 ABS 0 text54 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext55 0 0 ABS 0 text55 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext56 0 0 ABS 0 text56 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext57 0 0 ABS 0 text57 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext58 0 0 ABS 0 text58 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext59 0 0 ABS 0 text59 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext60 0 0 ABS 0 text60 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext61 0 0 ABS 0 text61 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext62 0 0 ABS 0 text62 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext63 0 0 ABS 0 text63 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext64 0 0 ABS 0 text64 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext65 0 0 ABS 0 text65 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext66 0 0 ABS 0 text66 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext67 0 0 ABS 0 text67 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext68 0 0 ABS 0 text68 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext69 0 0 ABS 0 text69 dist/default/debug\Lab8p1.X.debug.obj
+__Ltext70 0 0 ABS 0 text70 dist/default/debug\Lab8p1.X.debug.obj
+__ramtop 1000 0 RAM 0 ramtop C:\Users\Dara\AppData\Local\Temp\sai8.obj
+_Select_ADC_Channel BEF0 0 CODE 0 text3 dist/default/debug\Lab8p1.X.debug.obj
+drawtext@size 30 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+putch@c 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Lpowerup 0 0 CODE 0 powerup dist/default/debug\Lab8p1.X.debug.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Lab8p1.X.debug.obj
+_drawCircle DB36 0 CODE 0 text51 dist/default/debug\Lab8p1.X.debug.obj
+_isdigit BFE6 0 CODE 0 text26 dist/default/debug\Lab8p1.X.debug.obj
+_SW_MODE_Txt A3 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug\Lab8p1.X.debug.obj
+_SW_EWPED 72 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+scale@scl 2A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawPixel@x B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawPixel@y 8 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_SW_NSPED 75 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+drawPixel@color 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of__div_to_l_ D4DE 0 CODE 0 text30 dist/default/debug\Lab8p1.X.debug.obj
+_Night_Mode CB4C 0 CODE 0 text4 dist/default/debug\Lab8p1.X.debug.obj
+drawFastVLine@color A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___param_bank 10 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__CFG_WDT$OFF 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+spiwrite@spidata 2 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Lab8p1.X.debug.obj
+___ftmul@exp 1E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of__initialization C58E 0 CODE 0 cinit dist/default/debug\Lab8p1.X.debug.obj
+___awmod@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_delay_ms C484 0 CODE 0 text15 dist/default/debug\Lab8p1.X.debug.obj
+update_LCD_misc@nStep 64 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/debug\Lab8p1.X.debug.obj
+update_LCD_misc@volts 66 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_spiwrite 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__pidataBANK0 C07B 0 CODE 0 idataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+?_scale 24 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+write_command@cmd_ 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/debug\Lab8p1.X.debug.obj
+__end_of_fillScreen BFE6 0 CODE 0 text6 dist/default/debug\Lab8p1.X.debug.obj
+___ftpack@sign 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_WAIT_1_SEC C760 0 CODE 0 text21 dist/default/debug\Lab8p1.X.debug.obj
+drawChar@color 20 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+fillCircle@r 2F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_delay_ms C4D6 0 CODE 0 text15 dist/default/debug\Lab8p1.X.debug.obj
+_rowstart 7A 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_WAIT_N_SEC C0CE 0 CODE 0 text19 dist/default/debug\Lab8p1.X.debug.obj
+___lldiv@quotient 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_Activate_Buzzer BF38 0 CODE 0 text70 dist/default/debug\Lab8p1.X.debug.obj
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftdiv@cntr 22 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+___ftdiv@sign 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_TXSTAbits FAC 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_T3CONbits FB1 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_write_data BF28 0 CODE 0 text61 dist/default/debug\Lab8p1.X.debug.obj
+__pmediumconst FA62 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab8p1.X.debug.obj
+_SSPCON1 FC6 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_SSPSTAT FC7 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_fillRect C39A 0 CODE 0 text57 dist/default/debug\Lab8p1.X.debug.obj
+drawChar@bg 22 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Hend_init 4 0 CODE 0 end_init dist/default/debug\Lab8p1.X.debug.obj
+_EW_Count 8E 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+___llmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__size_of_write_command 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+___llmod@counter 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_SW_EWLT_Txt 7C 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_font FB62 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab8p1.X.debug.obj
+__end_of_main CB4C 0 CODE 0 text0 dist/default/debug\Lab8p1.X.debug.obj
+isdigit@c 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Rcmd1 D6FE 0 CODE 0 text13 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Rcmd3 D2DC 0 CODE 0 text11 dist/default/debug\Lab8p1.X.debug.obj
+printf@exp 58 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+printf@val 50 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_dpowers FC66 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab8p1.X.debug.obj
+_Count 6F 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_font2 FC3E 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab8p1.X.debug.obj
+_isdigit$2080 2 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_PORTD F83 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_RCSTA FAB 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_Rcmd1 D5EE 0 CODE 0 text13 dist/default/debug\Lab8p1.X.debug.obj
+_Rcmd3 D1EA 0 CODE 0 text11 dist/default/debug\Lab8p1.X.debug.obj
+_SPBRG FAF 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_T0CON FD5 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_T2CON FCA 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_T3CON FB1 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_TMR0H FD7 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_TMR0L FD6 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_TRISA F92 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_TRISB F93 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_TRISC F94 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_TRISD F95 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_TRISE F96 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_TXREG FAD 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_TXSTA FAC 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__end_of_putch BF0A 0 CODE 0 text25 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_scale EA0C 0 CODE 0 text24 dist/default/debug\Lab8p1.X.debug.obj
+__end_of_fillRect C3E4 0 CODE 0 text57 dist/default/debug\Lab8p1.X.debug.obj
+__HRAM 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__Hbss 0 0 RAM 1 bss dist/default/debug\Lab8p1.X.debug.obj
+__Hram 0 0 ABS 0 ram dist/default/debug\Lab8p1.X.debug.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/debug\Lab8p1.X.debug.obj
+__LRAM 1 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+__Lbss 0 0 RAM 1 bss dist/default/debug\Lab8p1.X.debug.obj
+__Lram 0 0 ABS 0 ram dist/default/debug\Lab8p1.X.debug.obj
+__Lsfr 0 0 ABS 0 sfr dist/default/debug\Lab8p1.X.debug.obj
+_array 80 0 BANK0 1 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+__size_of_WAIT_HALF_SEC 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_font2 FB62 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab8p1.X.debug.obj
+_putch BEFC 0 CODE 0 text25 dist/default/debug\Lab8p1.X.debug.obj
+Set_EWLT@color 36 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_scale E62C 0 CODE 0 text24 dist/default/debug\Lab8p1.X.debug.obj
+_volts A9 0 BANK0 1 bssBANK0 dist/default/debug\Lab8p1.X.debug.obj
+_fround$2383 2A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_fround$2384 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_colstart 77 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_SW_EWLT 71 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_SW_MODE 73 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_SW_NSLT 74 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_SSPSTATbits FC7 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+_CCP2CON FBA 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+___fttol@sign1 34 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_drawCircle DCE4 0 CODE 0 text51 dist/default/debug\Lab8p1.X.debug.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/debug\Lab8p1.X.debug.obj
+__size_of_update_LCD_PED_Count 0 0 ABS 0 - dist/default/debug\Lab8p1.X.debug.obj
+OpenUSART@config 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__initialization C536 0 CODE 0 cinit dist/default/debug\Lab8p1.X.debug.obj
+__pbssBANK0 A9 0 BANK0 1 bssBANK0 dist/default/debug\Lab8p1.X.debug.obj
+__pdataCOMRAM 7B 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_SW_EWPED_Txt 7E 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__end_of_Night_Mode CBFA 0 CODE 0 text4 dist/default/debug\Lab8p1.X.debug.obj
+_WAIT_1_SEC_W_BEEP BF84 0 CODE 0 text67 dist/default/debug\Lab8p1.X.debug.obj
+drawtext@textsize 33 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/debug\Lab8p1.X.debug.obj
+___wmul@product 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+update_LCD_PED_Count@direction 3C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+_spiwrite BF5C 0 CODE 0 text63 dist/default/debug\Lab8p1.X.debug.obj
+OpenUSART@spbrg 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\Lab8p1.X.debug.obj
+__end_of_write_command BF28 0 CODE 0 text62 dist/default/debug\Lab8p1.X.debug.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/debug\Lab8p1.X.debug.obj
+__div_to_l_@cntr B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__div_to_l_@exp1 C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__div_to_l_@quot 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Lab8p1.X.debug.obj
+__Hintcode 0 0 CODE 0 intcode dist/default/debug\Lab8p1.X.debug.obj
+__end_of_update_LCD_PED_Count D1EA 0 CODE 0 text53 dist/default/debug\Lab8p1.X.debug.obj
+___ftmul@f3_as_product 1F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab8p1.X.debug.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 C536 C536 62 1
+idloc 0 200000 200000 8 1
+text0 0 CAAA CAAA A2 1
+text1 0 BF70 BF70 14 1
+text2 0 C66E C66E 70 1
+text3 0 BEF0 BEF0 C 1
+text4 0 CB4C CB4C AE 1
+text5 0 EA0C EA0C 71E 1
+text6 0 BFCA BFCA 1C 1
+text7 0 CD80 CD80 DC 1
+text8 0 C598 C598 66 1
+text9 0 C86A C86A 88 1
+text10 0 C0A4 C0A4 2A 1
+text11 0 D1EA D1EA F2 1
+text12 0 C208 C208 3E 1
+text13 0 D5EE D5EE 110 1
+text14 0 BF4A BF4A 12 1
+text15 0 C484 C484 52 1
+text16 0 BF9A BF9A 16 1
+text17 0 BF0A BF0A E 1
+text18 0 CBFA CBFA C0 1
+text19 0 C0CE C0CE 2E 1
+text20 0 D98C D98C 1AA 1
+text21 0 C760 C760 82 1
+text22 0 DEA8 DEA8 1DE 1
+text23 0 F12A F12A 938 1
+text24 0 E62C E62C 3E0 1
+text25 0 BEFC BEFC E 1
+text26 0 BFE6 BFE6 22 1
+text27 0 E086 E086 244 1
+text28 0 D2DC D2DC F8 1
+text29 0 D4DE D4DE 110 1
+text30 0 D3D4 D3D4 10A 1
+text31 0 C4D6 C4D6 60 1
+text32 0 C5FE C5FE 70 1
+text33 0 C8F2 C8F2 8C 1
+text34 0 D01C D01C E6 1
+text35 0 C356 C356 44 1
+text36 0 DCE4 DCE4 1C4 1
+text37 0 C008 C008 24 1
+text38 0 CA14 CA14 96 1
+text39 0 C02C C02C 26 1
+text40 0 CF3A CF3A E2 1
+text41 0 C18E C18E 3C 1
+text42 0 CCBA CCBA C6 1
+text43 0 C15C C15C 32 1
+text44 0 C312 C312 44 1
+text45 0 C2CE C2CE 44 1
+text46 0 C28A C28A 44 1
+text47 0 C246 C246 44 1
+text48 0 E2CA E2CA 362 1
+text49 0 C432 C432 52 1
+text50 0 D6FE D6FE 138 1
+text51 0 DB36 DB36 1AE 1
+text52 0 C12C C12C 30 1
+text53 0 D102 D102 E8 1
+text54 0 CE5C CE5C DE 1
+text55 0 C1CA C1CA 3E 1
+text56 0 D836 D836 156 1
+text57 0 C39A C39A 4A 1
+text58 0 C7E2 C7E2 88 1
+text59 0 C0FC C0FC 30 1
+text60 0 C3E4 C3E4 4E 1
+text61 0 BF28 BF28 10 1
+text62 0 BF18 BF18 10 1
+text63 0 BF5C BF5C 14 1
+text64 0 C052 C052 28 1
+text65 0 C6DE C6DE 82 1
+text66 0 C97E C97E 96 1
+text67 0 BF84 BF84 16 1
+text68 0 BFB0 BFB0 1A 1
+text69 0 BEE8 BEE8 8 1
+text70 0 BF38 BF38 12 1
+idataCOMRAM 0 BEE3 BEE3 5 1
+cstackCOMRAM 1 1 1 7F 1
+reset_vec 0 0 0 4 1
+idataBANK0 0 C07B C07B 29 1
+dataBANK0 1 80 80 4F 1
+mediumconst 0 FA62 FA62 2CE 1
+config 0 300000 300000 E 1

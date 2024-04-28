@@ -1,0 +1,100 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Tue Oct 04 17:55:52 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000148
+                   .cinit    romdata   0x000148    program   0x000002
+.config_300001_BUILD/DEFAULT/PRODUCTION/LAB4PG1    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/LAB4PG1    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/LAB4PG1    romdata   0x300003    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/LAB4PG1    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000149      
+                            0x300001    0x300003      
+                            0x300006    0x300006      
+            334 out of 66584 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+             Clear_ZFlag1   0x0000a0    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+             Clear_ZFlag2   0x0000c6    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+             Clear_ZFlag3   0x0000ec    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+             Clear_ZFlag4   0x000112    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+             Clear_ZFlag5   0x000136    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                    DONE1   0x0000a8    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                    DONE2   0x0000ce    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                    DONE3   0x0000f4    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                    DONE4   0x00011a    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                    DONE5   0x000146    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                MAIN_LOOP   0x000018    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                   OUTPUT   0x00013e    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+              PORTD21EQ00   0x00003a    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+              PORTD21EQ01   0x000030    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                PORTD2EQ0   0x000026    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                PORTD2EQ1   0x000022    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                    START   0x000000    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+           SUBROUTINE_ADD   0x0000aa    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+           SUBROUTINE_BCD   0x00011c    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+          SUBROUTINE_COMP   0x00008a    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+            SUBROUTINE_OR   0x0000f6    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+           SUBROUTINE_XOR   0x0000d0    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+               Set_ZFlag1   0x0000a6    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+               Set_ZFlag2   0x0000cc    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+               Set_ZFlag3   0x0000f2    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+               Set_ZFlag4   0x000118    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+               Set_ZFlag5   0x00013c    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                 TASK_ADD   0x000052    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                 TASK_BCD   0x00007c    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                TASK_COMP   0x000044    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                  TASK_OR   0x00006e    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                 TASK_XOR   0x000060    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000000    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                MAIN_LOOP   0x000018    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                PORTD2EQ1   0x000022    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                PORTD2EQ0   0x000026    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+              PORTD21EQ01   0x000030    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+              PORTD21EQ00   0x00003a    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                TASK_COMP   0x000044    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                 TASK_ADD   0x000052    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                 TASK_XOR   0x000060    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                  TASK_OR   0x00006e    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                 TASK_BCD   0x00007c    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+          SUBROUTINE_COMP   0x00008a    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+             Clear_ZFlag1   0x0000a0    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+               Set_ZFlag1   0x0000a6    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                    DONE1   0x0000a8    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+           SUBROUTINE_ADD   0x0000aa    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+             Clear_ZFlag2   0x0000c6    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+               Set_ZFlag2   0x0000cc    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                    DONE2   0x0000ce    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+           SUBROUTINE_XOR   0x0000d0    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+             Clear_ZFlag3   0x0000ec    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+               Set_ZFlag3   0x0000f2    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                    DONE3   0x0000f4    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+            SUBROUTINE_OR   0x0000f6    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+             Clear_ZFlag4   0x000112    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+               Set_ZFlag4   0x000118    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                    DONE4   0x00011a    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+           SUBROUTINE_BCD   0x00011c    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+             Clear_ZFlag5   0x000136    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+               Set_ZFlag5   0x00013c    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                   OUTPUT   0x00013e    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+                    DONE5   0x000146    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartG1\Lab4pG1.X\Lab4pG1.asm
+
+

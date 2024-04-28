@@ -1,0 +1,44 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Tue Sep 27 14:07:24 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00003a
+                   .cinit    romdata   0x00003a    program   0x000002
+.config_300001_BUILD/DEFAULT/PRODUCTION/LAB4PC.    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/LAB4PC.    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/LAB4PC.    romdata   0x300003    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/LAB4PC.    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00003b      
+                            0x300001    0x300003      
+                            0x300006    0x300006      
+            64 out of 66584 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   LABEL1   0x000032    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartC\Lab4pC.X\Lab4pC.asm
+                   LABEL2   0x000034    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartC\Lab4pC.X\Lab4pC.asm
+                MAIN_LOOP   0x000014    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartC\Lab4pC.X\Lab4pC.asm
+                    START   0x000000    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartC\Lab4pC.X\Lab4pC.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000000    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartC\Lab4pC.X\Lab4pC.asm
+                MAIN_LOOP   0x000014    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartC\Lab4pC.X\Lab4pC.asm
+                   LABEL1   0x000032    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartC\Lab4pC.X\Lab4pC.asm
+                   LABEL2   0x000034    program     static C:\Users\Dara\MPLABXProjects\Lab4\PartC\Lab4pC.X\Lab4pC.asm
+
+
